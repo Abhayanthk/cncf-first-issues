@@ -12,7 +12,7 @@ import urllib.error
 from datetime import datetime, timedelta, timezone
 import yaml
 
-TOKEN = os.environ.get("GH_TOKEN")
+TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 LOOKBACK_DAYS = 100
 MAX_ISSUES = 100
 
@@ -153,7 +153,7 @@ def main():
         print("Warning: no CNCF orgs discovered (landscape/cache unavailable). Proceeding without org filter.")
         orgs = None
         
-    # Use YYYY-MM-DD for GitHub search to avoid Copilot warnings about ISO 8601 formatting
+    # Use YYYY-MM-DD format as required by GitHub Search qualifier syntax to avoid timezone ambiguity
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     
     # Global search query
