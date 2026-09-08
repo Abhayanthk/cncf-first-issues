@@ -118,12 +118,19 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
         ) # Prevent markdown table/link breaking
         url = it.get("html_url", "")
         
-        # Format labels nicely (case-insensitive filter, sanitize pipes/newlines)
+        # Format labels nicely (case-insensitive filter, sanitize pipes/newlines/brackets)
         raw_labels = []
         for l in it.get("labels", []):
             name = l.get("name", "")
             if name.lower() != "good first issue":
-                clean_name = name.replace("|", "-").replace("\n", " ")
+                clean_name = (
+                    name.replace("\\", "\\\\")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .replace("|", "-")
+                    .replace("[", "\\[")
+                    .replace("]", "\\]")
+                )
                 raw_labels.append(clean_name)
                 
         labels = ", ".join(raw_labels[:2]) # Show max 2 extra labels, without backticks to prevent markdown issues
@@ -150,53 +157,73 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 def main():
     orgs = discover_cncf_orgs()
     if not orgs:
-        print("Warning: no CNCF orgs discovered (landscape/cache unavailable). Proceeding without org filter.")
-        orgs = None
+        print("Error: No CNCF orgs discovered (landscape fetch failed and cache empty). Aborting to preserve last valid state.")
+        return
         
     # Use YYYY-MM-DD format as required by GitHub Search qualifier syntax to avoid timezone ambiguity
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     
-    # Global search query
-    q = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
+    # Base search query
+    base_query = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
     
-    issues = []
-    page = 1
+    # Partition orgs into chunks using disjunctive OR, staying under limits
+    queries = []
+    current_orgs = []
+    current_len = len(base_query) + 1 # space before qualifiers
     
-    # Paginate through global results
-    while len(issues) < MAX_ISSUES and page <= 10:
-        url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100&page={page}"
+    for org in sorted(list(orgs)):
+        addition = f"org:{org}" if not current_orgs else f" OR org:{org}"
+        
+        # Limit to 15 qualifiers (per review recommendation < 16) and under 256 characters
+        if len(current_orgs) >= 15 or current_len + len(addition) > 250:
+            org_str = " OR ".join([f"org:{o}" for o in current_orgs])
+            queries.append(f"{base_query} {org_str}")
+            
+            current_orgs = [org]
+            current_len = len(base_query) + 1 + len(f"org:{org}")
+        else:
+            current_orgs.append(org)
+            current_len += len(addition)
+            
+    if current_orgs:
+        org_str = " OR ".join([f"org:{o}" for o in current_orgs])
+        queries.append(f"{base_query} {org_str}")
+        
+    all_issues = []
+    
+    # Execute partitioned searches
+    for q in queries:
+        url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100"
         try:
             resp = gh_api_request(url)
-            items = resp.get("items", [])
             
-            for it in items:
-                repo_url = it.get("repository_url", "")
-                if "/repos/" not in repo_url:
-                    continue
-                    
-                issue_org = repo_url.split("/repos/")[1].split("/")[0].lower()
+            if resp.get("incomplete_results"):
+                print("Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
+                continue
                 
-                # Local filter: only keep if it's from a tracked CNCF org, or if orgs failed to load
-                if orgs is None or issue_org in orgs:
-                    issues.append(it)
-                    if len(issues) >= MAX_ISSUES:
-                        break
-                        
-            if len(items) < 100:
-                break
-            page += 1
-            
+            items = resp.get("items", [])
+            for it in items:
+                all_issues.append(it)
+                
         except urllib.error.HTTPError as e:
             detail = ""
             try:
                 detail = e.read().decode("utf-8", errors="replace")
             except Exception:
                 detail = str(getattr(e, "reason", ""))
-            print(f"GitHub API error {e.code} on page {page}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
-            break
+            print(f"GitHub API error {e.code}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
         except Exception as e:
-            print(f"Unexpected error: {e}")
-            break
+            print(f"Unexpected error during search: {e}")
+            
+    # Deduplicate and sort newest-first
+    unique_issues = {it["html_url"]: it for it in all_issues}.values()
+    sorted_issues = sorted(unique_issues, key=lambda x: x.get("created_at", ""), reverse=True)
+    
+    issues = list(sorted_issues)[:MAX_ISSUES]
+
+    if not issues:
+        print("No issues fetched (network failure or empty results). Aborting README update to preserve last valid state.")
+        return
 
     update_readme(issues)
     print(f"Successfully generated README.md with {len(issues)} issues.")

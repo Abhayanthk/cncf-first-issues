@@ -1,0 +1,11 @@
+services:
+  updater:
+    build: .
+    user: "${UID:?UID is required}:${GID:?GID is required}"
+    environment:
+      # You can optionally create a .env file locally with GH_TOKEN=your_token
+      - GH_TOKEN=${GH_TOKEN:-}
+    volumes:
+      # Map the local directory to the container so that it writes 
+      # the README.md and orgs.json back to your host machine
+      - .:/app
