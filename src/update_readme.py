@@ -118,12 +118,19 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
         ) # Prevent markdown table/link breaking
         url = it.get("html_url", "")
         
-        # Format labels nicely (case-insensitive filter, sanitize pipes/newlines)
+        # Format labels nicely (case-insensitive filter, sanitize pipes/newlines/brackets)
         raw_labels = []
         for l in it.get("labels", []):
             name = l.get("name", "")
             if name.lower() != "good first issue":
-                clean_name = name.replace("|", "-").replace("\n", " ")
+                clean_name = (
+                    name.replace("\\", "\\\\")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .replace("|", "-")
+                    .replace("[", "\\[")
+                    .replace("]", "\\]")
+                )
                 raw_labels.append(clean_name)
                 
         labels = ", ".join(raw_labels[:2]) # Show max 2 extra labels, without backticks to prevent markdown issues
@@ -156,47 +163,58 @@ def main():
     # Use YYYY-MM-DD format as required by GitHub Search qualifier syntax to avoid timezone ambiguity
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     
-    # Global search query
-    q = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
+    # Base search query
+    base_query = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
     
-    issues = []
-    page = 1
+    # Partition orgs into chunks to stay under GitHub's 256-character query limit
+    queries = []
+    current_orgs = []
+    current_len = len(base_query)
     
-    # Paginate through global results
-    while len(issues) < MAX_ISSUES and page <= 10:
-        url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100&page={page}"
+    for org in sorted(list(orgs)):
+        addition = f" org:{org}"
+        if current_len + len(addition) > 250:
+            queries.append(base_query + "".join(current_orgs))
+            current_orgs = [addition]
+            current_len = len(base_query) + len(addition)
+        else:
+            current_orgs.append(addition)
+            current_len += len(addition)
+            
+    if current_orgs:
+        queries.append(base_query + "".join(current_orgs))
+        
+    all_issues = []
+    
+    # Execute partitioned searches
+    for q in queries:
+        url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100"
         try:
             resp = gh_api_request(url)
-            items = resp.get("items", [])
             
-            for it in items:
-                repo_url = it.get("repository_url", "")
-                if "/repos/" not in repo_url:
-                    continue
-                    
-                issue_org = repo_url.split("/repos/")[1].split("/")[0].lower()
+            if resp.get("incomplete_results"):
+                print(f"Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
+                continue
                 
-                # Local filter: only keep if it's from a tracked CNCF org
-                if issue_org in orgs:
-                    issues.append(it)
-                    if len(issues) >= MAX_ISSUES:
-                        break
-                        
-            if len(items) < 100:
-                break
-            page += 1
-            
+            items = resp.get("items", [])
+            for it in items:
+                all_issues.append(it)
+                
         except urllib.error.HTTPError as e:
             detail = ""
             try:
                 detail = e.read().decode("utf-8", errors="replace")
             except Exception:
                 detail = str(getattr(e, "reason", ""))
-            print(f"GitHub API error {e.code} on page {page}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
-            break
+            print(f"GitHub API error {e.code}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
         except Exception as e:
-            print(f"Unexpected error: {e}")
-            break
+            print(f"Unexpected error during search: {e}")
+            
+    # Deduplicate and sort newest-first
+    unique_issues = {it["html_url"]: it for it in all_issues}.values()
+    sorted_issues = sorted(unique_issues, key=lambda x: x.get("created_at", ""), reverse=True)
+    
+    issues = list(sorted_issues)[:MAX_ISSUES]
 
     if not issues:
         print("No issues fetched (network failure or empty results). Aborting README update to preserve last valid state.")
