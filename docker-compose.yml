@@ -1,9 +1,6 @@
-version: "3.8"
-
 services:
   updater:
     build: .
-    container_name: cncf-first-issues-updater
     user: "${UID:-1000}:${GID:-1000}"
     environment:
       # You can optionally create a .env file locally with GH_TOKEN=your_token
