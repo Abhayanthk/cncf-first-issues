@@ -166,23 +166,28 @@ def main():
     # Base search query
     base_query = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
     
-    # Partition orgs into chunks to stay under GitHub's 256-character query limit
+    # Partition orgs into chunks using disjunctive OR, staying under limits
     queries = []
     current_orgs = []
-    current_len = len(base_query)
+    current_len = len(base_query) + 1 # space before qualifiers
     
     for org in sorted(list(orgs)):
-        addition = f" org:{org}"
-        if current_len + len(addition) > 250:
-            queries.append(base_query + "".join(current_orgs))
-            current_orgs = [addition]
-            current_len = len(base_query) + len(addition)
+        addition = f"org:{org}" if not current_orgs else f" OR org:{org}"
+        
+        # Limit to 15 qualifiers (per review recommendation < 16) and under 256 characters
+        if len(current_orgs) >= 15 or current_len + len(addition) > 250:
+            org_str = " OR ".join([f"org:{o}" for o in current_orgs])
+            queries.append(f"{base_query} {org_str}")
+            
+            current_orgs = [org]
+            current_len = len(base_query) + 1 + len(f"org:{org}")
         else:
-            current_orgs.append(addition)
+            current_orgs.append(org)
             current_len += len(addition)
             
     if current_orgs:
-        queries.append(base_query + "".join(current_orgs))
+        org_str = " OR ".join([f"org:{o}" for o in current_orgs])
+        queries.append(f"{base_query} {org_str}")
         
     all_issues = []
     
@@ -193,7 +198,7 @@ def main():
             resp = gh_api_request(url)
             
             if resp.get("incomplete_results"):
-                print(f"Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
+                print("Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
                 continue
                 
             items = resp.get("items", [])
