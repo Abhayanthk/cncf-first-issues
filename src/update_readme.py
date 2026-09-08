@@ -15,8 +15,11 @@ import yaml
 TOKEN = os.environ.get("GH_TOKEN")
 LOOKBACK_DAYS = 100
 MAX_ISSUES = 100
-ORGS_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "orgs.json"))
-README_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md"))
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ORGS_FILE = os.path.join(BASE_DIR, "..", "orgs.json")
+README_FILE = os.path.join(BASE_DIR, "..", "README.md")
+
 LANDSCAPE_URL = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
 GH_API_URL = "https://api.github.com/search/issues"
 
@@ -104,7 +107,15 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
     for it in issues:
         repo_url = it.get("repository_url", "")
         repo_name = repo_url.split("/repos/")[1] if "/repos/" in repo_url else "Unknown"
-        title = it.get("title", "").replace("\r", " ").replace("\n", " ").replace("|", "-").replace("[", "\\[").replace("]", "\\]") # Prevent markdown table/link breaking
+        title = (
+            it.get("title", "")
+            .replace("\\", "\\\\")
+            .replace("\r", " ")
+            .replace("\n", " ")
+            .replace("|", "-")
+            .replace("[", "\\[")
+            .replace("]", "\\]")
+        ) # Prevent markdown table/link breaking
         url = it.get("html_url", "")
         
         # Format labels nicely (case-insensitive filter, sanitize pipes/newlines)
