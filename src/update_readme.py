@@ -104,18 +104,25 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
     for it in issues:
         repo_url = it.get("repository_url", "")
         repo_name = repo_url.split("/repos/")[1] if "/repos/" in repo_url else "Unknown"
-        title = it.get("title", "").replace("|", "-") # Prevent markdown table breaking
+        title = it.get("title", "").replace("|", "-").replace("\n", " ") # Prevent markdown table breaking
         url = it.get("html_url", "")
         
-        # Format labels nicely
-        raw_labels = [l.get("name", "") for l in it.get("labels", []) if l.get("name") != "good first issue"]
+        # Format labels nicely (case-insensitive filter, sanitize pipes/newlines)
+        raw_labels = []
+        for l in it.get("labels", []):
+            name = l.get("name", "")
+            if name.lower() != "good first issue":
+                clean_name = name.replace("|", "-").replace("\n", " ")
+                raw_labels.append(clean_name)
+                
         labels = ", ".join([f"`{l}`" for l in raw_labels[:2]]) # Show max 2 extra labels
         
         # Format date
         created_at = datetime.strptime(it["created_at"], "%Y-%m-%dT%H:%M:%SZ")
         date_str = created_at.strftime("%b %d, %Y")
 
-        repo_html_url = url if repo_name == "Unknown" else f"https://github.com/{repo_name}"
+        # Extract repo URL correctly even if API repository_url is missing
+        repo_html_url = url.rsplit("/issues/", 1)[0] if "/issues/" in url else f"https://github.com/{repo_name}"
         labels_cell = labels if labels else "-"
         rows.append(f"| **[{repo_name}]({repo_html_url})** | [{title}]({url}) | {labels_cell} | {date_str} |")
 
