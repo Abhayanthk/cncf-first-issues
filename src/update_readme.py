@@ -112,8 +112,10 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
         # Format date
         created_at = datetime.strptime(it["created_at"], "%Y-%m-%dT%H:%M:%SZ")
         date_str = created_at.strftime("%b %d, %Y")
-        
-        rows.append(f"| **[{repo_name}]({url})** | [{title}]({url}) <br/> {labels} | - | {date_str} |")
+
+        repo_html_url = url if repo_name == "Unknown" else f"https://github.com/{repo_name}"
+        labels_cell = labels if labels else "-"
+        rows.append(f"| **[{repo_name}]({repo_html_url})** | [{title}]({url}) | {labels_cell} | {date_str} |")
 
     footer = """
 
