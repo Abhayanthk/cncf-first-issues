@@ -150,8 +150,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 def main():
     orgs = discover_cncf_orgs()
     if not orgs:
-        print("Warning: no CNCF orgs discovered (landscape/cache unavailable). Proceeding without org filter.")
-        orgs = None
+        print("Error: No CNCF orgs discovered (landscape fetch failed and cache empty). Aborting to preserve last valid state.")
+        return
         
     # Use YYYY-MM-DD format as required by GitHub Search qualifier syntax to avoid timezone ambiguity
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
@@ -176,8 +176,8 @@ def main():
                     
                 issue_org = repo_url.split("/repos/")[1].split("/")[0].lower()
                 
-                # Local filter: only keep if it's from a tracked CNCF org, or if orgs failed to load
-                if orgs is None or issue_org in orgs:
+                # Local filter: only keep if it's from a tracked CNCF org
+                if issue_org in orgs:
                     issues.append(it)
                     if len(issues) >= MAX_ISSUES:
                         break
@@ -197,6 +197,10 @@ def main():
         except Exception as e:
             print(f"Unexpected error: {e}")
             break
+
+    if not issues:
+        print("No issues fetched (network failure or empty results). Aborting README update to preserve last valid state.")
+        return
 
     update_readme(issues)
     print(f"Successfully generated README.md with {len(issues)} issues.")

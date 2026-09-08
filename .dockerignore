@@ -4,5 +4,3 @@ __pycache__
 venv
 *.pyc
 .env
-orgs.json
-README.md
