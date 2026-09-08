@@ -14,7 +14,7 @@ import yaml
 TOKEN = os.environ.get("GH_TOKEN")
 LOOKBACK_DAYS = 100
 MAX_ISSUES = 100
-ORGS_FILE = "orgs.json"
+ORGS_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "orgs.json"))
 LANDSCAPE_URL = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
 GH_API_URL = "https://api.github.com/search/issues"
 
