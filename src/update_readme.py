@@ -8,6 +8,7 @@ import json
 import os
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timedelta, timezone
 import yaml
 
@@ -15,13 +16,14 @@ TOKEN = os.environ.get("GH_TOKEN")
 LOOKBACK_DAYS = 100
 MAX_ISSUES = 100
 ORGS_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "orgs.json"))
+README_FILE = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "README.md"))
 LANDSCAPE_URL = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
 GH_API_URL = "https://api.github.com/search/issues"
 
 
 def load_json(path, default):
     try:
-        with open(path, "r") as f:
+        with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
         return default
@@ -69,7 +71,7 @@ def discover_cncf_orgs():
                                 orgs.add(org_name)
                                 
         # Cache for fallback
-        with open(ORGS_FILE, "w") as f:
+        with open(ORGS_FILE, "w", encoding="utf-8") as f:
             json.dump(sorted(list(orgs)), f)
         return orgs
         
@@ -88,7 +90,7 @@ Welcome to the **CNCF Beginners Hub**! This repository automatically scrapes the
 
 If you're looking to start your open-source journey in Kubernetes, Prometheus, Envoy, and other top-tier cloud-native projects, you're in the right place.
 
-> 🔄 **Live Feed**: This list is automatically updated via GitHub Actions.
+> 🔄 **Live Feed**: This list is currently updated manually. (GitHub Actions automation coming soon!)
 > 🌟 **Star this repo** to keep it in your bookmarks!
 
 ## 🎯 Active Issues
@@ -123,13 +125,14 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 *Built with ❤️ for the Cloud Native community.*
 """
 
-    with open("README.md", "w") as f:
+    with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(header + "\n".join(rows) + footer)
 
 
 def main():
     orgs = discover_cncf_orgs()
-    since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Use YYYY-MM-DD for GitHub search to avoid Copilot warnings about ISO 8601 formatting
+    since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     
     # Global search query
     q = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
