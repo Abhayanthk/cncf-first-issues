@@ -104,7 +104,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
     for it in issues:
         repo_url = it.get("repository_url", "")
         repo_name = repo_url.split("/repos/")[1] if "/repos/" in repo_url else "Unknown"
-        title = it.get("title", "").replace("|", "-").replace("\n", " ") # Prevent markdown table breaking
+        title = it.get("title", "").replace("\r", " ").replace("\n", " ").replace("|", "-").replace("[", "\\[").replace("]", "\\]") # Prevent markdown table/link breaking
         url = it.get("html_url", "")
         
         # Format labels nicely (case-insensitive filter, sanitize pipes/newlines)
@@ -115,7 +115,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
                 clean_name = name.replace("|", "-").replace("\n", " ")
                 raw_labels.append(clean_name)
                 
-        labels = ", ".join([f"`{l}`" for l in raw_labels[:2]]) # Show max 2 extra labels
+        labels = ", ".join(raw_labels[:2]) # Show max 2 extra labels, without backticks to prevent markdown issues
         
         # Format date
         created_at = datetime.strptime(it["created_at"], "%Y-%m-%dT%H:%M:%SZ")
@@ -138,6 +138,10 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 def main():
     orgs = discover_cncf_orgs()
+    if not orgs:
+        print("Warning: no CNCF orgs discovered (landscape/cache unavailable). Proceeding without org filter.")
+        orgs = None
+        
     # Use YYYY-MM-DD for GitHub search to avoid Copilot warnings about ISO 8601 formatting
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
     
@@ -161,8 +165,8 @@ def main():
                     
                 issue_org = repo_url.split("/repos/")[1].split("/")[0].lower()
                 
-                # Local filter: only keep if it's from a tracked CNCF org
-                if issue_org in orgs:
+                # Local filter: only keep if it's from a tracked CNCF org, or if orgs failed to load
+                if orgs is None or issue_org in orgs:
                     issues.append(it)
                     if len(issues) >= MAX_ISSUES:
                         break
@@ -172,7 +176,12 @@ def main():
             page += 1
             
         except urllib.error.HTTPError as e:
-            print(f"API Error {e.code}")
+            detail = ""
+            try:
+                detail = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                detail = str(getattr(e, "reason", ""))
+            print(f"GitHub API error {e.code} on page {page}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
             break
         except Exception as e:
             print(f"Unexpected error: {e}")
