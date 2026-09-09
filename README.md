@@ -12,7 +12,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[kubernetes-sigs/headlamp](https://github.com/kubernetes-sigs/headlamp)** | [docs: Broken links and anchors reported by docusaurus](https://github.com/kubernetes-sigs/headlamp/issues/7640) | kind/bug, documentation | Sep 09, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Bump minimum Go version to 1.26](https://github.com/oras-project/oras-go/issues/1416) | help wanted | Sep 09, 2026 |
 | **[microcks/microcks-operator](https://github.com/microcks/microcks-operator)** | [async-minion: propagate `kafka.sasl.client.callback.handler.class` for MSK IAM producers](https://github.com/microcks/microcks-operator/issues/305) | help wanted, kind/enhancement | Sep 09, 2026 |
 | **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Use the spec-recommended 10000ms default interval for the stdout exporter](https://github.com/open-telemetry/opentelemetry-ruby/issues/2373) | bug, spec-compliance | Sep 09, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
