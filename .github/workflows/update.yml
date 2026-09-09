@@ -1,0 +1,53 @@
+name: Update Good First Issues
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
+
+permissions:
+  contents: write # Required to push commits back to the repo
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run CNCF Scraper
+        env:
+          # GitHub Actions automatically provides this token with 30 requests/minute limit
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python src/update_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Configure standard GitHub Actions bot identity
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Add the generated files and caches
+          git add README.md dead_orgs.json orgs.json
+          
+          # Only commit and push if there are actual changes
+          if git diff --staged --quiet; then
+            echo "No new issues or cache updates to commit. Skipping push."
+          else
+            git commit -m "chore: auto-update README and caches [skip ci]"
+            git push
+          fi
