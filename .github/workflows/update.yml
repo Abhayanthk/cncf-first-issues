@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write # Required to push commits back to the repo
 
+# Prevent concurrent runs which cause git push race conditions
+concurrency:
+  group: "update-good-first-issues"
+  cancel-in-progress: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
