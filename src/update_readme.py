@@ -10,6 +10,7 @@ import urllib.request
 import urllib.parse
 import urllib.error
 from datetime import datetime, timedelta, timezone
+import time
 import yaml
 
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -18,6 +19,7 @@ MAX_ISSUES = 100
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ORGS_FILE = os.path.join(BASE_DIR, "..", "orgs.json")
+DEAD_ORGS_FILE = os.path.join(BASE_DIR, "..", "dead_orgs.json")
 README_FILE = os.path.join(BASE_DIR, "..", "README.md")
 
 LANDSCAPE_URL = "https://raw.githubusercontent.com/cncf/landscape/master/landscape.yml"
@@ -154,11 +156,61 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
         f.write(header + "\n".join(rows) + footer)
 
 
+def fetch_chunk_with_bisect(chunk, base_query, dead_orgs):
+    if not chunk:
+        return []
+        
+    org_str = " OR ".join([f"org:{o}" for o in chunk])
+    q = f"{base_query} {org_str}"
+
+    url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100"
+    
+    # Sleep to strictly respect the 30 req/min rate limit
+    time.sleep(2.1)
+    
+    try:
+        resp = gh_api_request(url)
+        if resp.get("incomplete_results"):
+            print("Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
+            return []
+        return resp.get("items", [])
+        
+    except urllib.error.HTTPError as e:
+        # 422 Validation Failed -> Invalid Org Name
+        if e.code == 422:
+            if len(chunk) > 1:
+                print(f"422 Error on chunk of {len(chunk)} orgs. Bisecting to find the bad org...")
+                mid = len(chunk) // 2
+                return fetch_chunk_with_bisect(chunk[:mid], base_query, dead_orgs) + fetch_chunk_with_bisect(chunk[mid:], base_query, dead_orgs)
+            else:
+                dead_org = chunk[0]
+                print(f"Isolated dead org: {dead_org}. Saving to cache to ignore forever.")
+                dead_orgs.add(dead_org)
+                return []
+        else:
+            detail = ""
+            try:
+                detail = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                detail = str(getattr(e, "reason", ""))
+            print(f"GitHub API error {e.code}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
+            return []
+    except Exception as e:
+        print(f"Unexpected error during search: {e}")
+        return []
+
+
 def main():
     orgs = discover_cncf_orgs()
     if not orgs:
         print("Error: No CNCF orgs discovered (landscape fetch failed and cache empty). Aborting to preserve last valid state.")
         return
+        
+    # Load dead orgs cache
+    dead_orgs = set(load_json(DEAD_ORGS_FILE, []))
+    
+    # Filter out known dead orgs before chunking
+    orgs = [o for o in orgs if o not in dead_orgs]
         
     # Use YYYY-MM-DD format as required by GitHub Search qualifier syntax to avoid timezone ambiguity
     since = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
@@ -167,18 +219,16 @@ def main():
     base_query = f'is:issue is:open label:"good first issue" no:assignee created:>{since}'
     
     # Partition orgs into chunks using disjunctive OR, staying under limits
-    queries = []
+    chunks = []
     current_orgs = []
     current_len = len(base_query) + 1 # space before qualifiers
     
-    for org in sorted(list(orgs)):
+    for org in sorted(orgs):
         addition = f"org:{org}" if not current_orgs else f" OR org:{org}"
         
         # Limit to 15 qualifiers (per review recommendation < 16) and under 256 characters
         if len(current_orgs) >= 15 or current_len + len(addition) > 250:
-            org_str = " OR ".join([f"org:{o}" for o in current_orgs])
-            queries.append(f"{base_query} {org_str}")
-            
+            chunks.append(current_orgs)
             current_orgs = [org]
             current_len = len(base_query) + 1 + len(f"org:{org}")
         else:
@@ -186,34 +236,17 @@ def main():
             current_len += len(addition)
             
     if current_orgs:
-        org_str = " OR ".join([f"org:{o}" for o in current_orgs])
-        queries.append(f"{base_query} {org_str}")
+        chunks.append(current_orgs)
         
     all_issues = []
     
-    # Execute partitioned searches
-    for q in queries:
-        url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100"
-        try:
-            resp = gh_api_request(url)
-            
-            if resp.get("incomplete_results"):
-                print("Warning: GitHub returned incomplete results due to timeouts. Skipping chunk to preserve state.")
-                continue
-                
-            items = resp.get("items", [])
-            for it in items:
-                all_issues.append(it)
-                
-        except urllib.error.HTTPError as e:
-            detail = ""
-            try:
-                detail = e.read().decode("utf-8", errors="replace")
-            except Exception:
-                detail = str(getattr(e, "reason", ""))
-            print(f"GitHub API error {e.code}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
-        except Exception as e:
-            print(f"Unexpected error during search: {e}")
+    # Execute partitioned searches with bisection logic
+    for chunk in chunks:
+        all_issues.extend(fetch_chunk_with_bisect(chunk, base_query, dead_orgs))
+        
+    # Save the updated dead orgs cache
+    with open(DEAD_ORGS_FILE, "w", encoding="utf-8") as f:
+        json.dump(sorted(list(dead_orgs)), f)
             
     # Deduplicate and sort newest-first
     unique_issues = {it["html_url"]: it for it in all_issues}.values()
