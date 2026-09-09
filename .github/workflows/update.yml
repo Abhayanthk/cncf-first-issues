@@ -35,16 +35,18 @@ jobs:
 
       - name: Run CNCF Scraper
         env:
-          # GitHub Actions automatically provides this token with 30 requests/minute limit
+          # Use the built-in token for search API limits
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python src/update_readme.py
 
       - name: Commit and Push Changes
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          # Configure standard GitHub Actions bot identity
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Write commits as the repository owner
+          git config --global user.name "Abhayanthk"
+          git config --global user.email "Abhayanthk@users.noreply.github.com"
           
           # Add the generated files and caches
           git add README.md dead_orgs.json
@@ -54,5 +56,6 @@ jobs:
             echo "No new issues or cache updates to commit. Skipping push."
           else
             git commit -m "chore: auto-update README and caches [skip ci]"
-            git push
+            # Securely push using the PAT without persisting it to .git/config
+            git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
           fi
