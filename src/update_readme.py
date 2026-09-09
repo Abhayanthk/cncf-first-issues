@@ -11,6 +11,7 @@ import urllib.parse
 import urllib.error
 from datetime import datetime, timedelta, timezone
 import time
+import sys
 import yaml
 
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -203,7 +204,7 @@ def main():
     orgs = discover_cncf_orgs()
     if not orgs:
         print("Error: No CNCF orgs discovered (landscape fetch failed and cache empty). Aborting to preserve last valid state.")
-        return
+        sys.exit(1)
         
     # Load dead orgs cache
     dead_orgs = set(load_json(DEAD_ORGS_FILE, []))
@@ -246,7 +247,7 @@ def main():
         except RuntimeError as e:
             print(f"Critical error: {e}")
             print("Aborting to preserve last valid state. The README will not be overwritten with partial data.")
-            return
+            sys.exit(1)
     with open(DEAD_ORGS_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(list(dead_orgs)), f)
             
@@ -258,7 +259,7 @@ def main():
 
     if not issues:
         print("No issues fetched (network failure or empty results). Aborting README update to preserve last valid state.")
-        return
+        sys.exit(1)
 
     update_readme(issues)
     print(f"Successfully generated README.md with {len(issues)} issues.")
