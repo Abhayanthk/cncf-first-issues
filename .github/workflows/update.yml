@@ -42,7 +42,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
           # Add the generated files and caches
-          git add README.md dead_orgs.json orgs.json
+          git add README.md dead_orgs.json
           
           # Only commit and push if there are actual changes
           if git diff --staged --quiet; then
