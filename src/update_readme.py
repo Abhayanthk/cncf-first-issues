@@ -161,7 +161,7 @@ def fetch_chunk_with_bisect(chunk, base_query, dead_orgs):
     if not chunk:
         return []
         
-    org_str = " OR ".join([f"org:{o}" for o in chunk])
+    org_str = " ".join([f"org:{o}" for o in chunk])
     q = f"{base_query} {org_str}"
 
     url = f"{GH_API_URL}?q={urllib.parse.quote(q)}&sort=created&order=desc&per_page=100"
@@ -224,7 +224,7 @@ def main():
     current_len = len(base_query) + 1 # space before qualifiers
     
     for org in sorted(orgs):
-        addition = f"org:{org}" if not current_orgs else f" OR org:{org}"
+        addition = f"org:{org}" if not current_orgs else f" org:{org}"
         
         # Limit to 15 qualifiers (per review recommendation < 16) and under 256 characters
         if len(current_orgs) >= 15 or current_len + len(addition) > 250:
