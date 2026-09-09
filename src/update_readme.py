@@ -96,7 +96,7 @@ Welcome to the **CNCF Beginners Hub**! This repository automatically scrapes the
 
 If you're looking to start your open-source journey in Kubernetes, Prometheus, Envoy, and other top-tier cloud-native projects, you're in the right place.
 
-> 🔄 **Live Feed**: This list is currently updated manually. (GitHub Actions automation coming soon!)
+> 🔄 **Live Feed**: This list is automatically updated by GitHub Actions every 15 minutes.
 > 🌟 **Star this repo** to keep it in your bookmarks!
 
 ## 🎯 Active Issues
