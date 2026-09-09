@@ -21,8 +21,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,6 +41,8 @@ jobs:
           python src/update_readme.py
 
       - name: Commit and Push Changes
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           # Write commits as the repository owner
           git config --global user.name "Abhayanthk"
@@ -56,5 +56,6 @@ jobs:
             echo "No new issues or cache updates to commit. Skipping push."
           else
             git commit -m "chore: auto-update README and caches [skip ci]"
-            git push
+            # Securely push using the PAT without persisting it to .git/config
+            git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
           fi
