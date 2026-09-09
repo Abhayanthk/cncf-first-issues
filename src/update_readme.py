@@ -176,8 +176,14 @@ def fetch_chunk_with_bisect(chunk, base_query, dead_orgs):
         return resp.get("items", [])
         
     except urllib.error.HTTPError as e:
-        # 422 Validation Failed -> Invalid Org Name
-        if e.code == 422:
+        detail = ""
+        try:
+            detail = e.read().decode("utf-8", errors="replace")
+        except Exception:
+            detail = str(getattr(e, "reason", ""))
+            
+        # Only treat 422 as a dead org if the message explicitly confirms it
+        if e.code == 422 and "cannot be searched" in detail:
             if len(chunk) > 1:
                 print(f"422 Error on chunk of {len(chunk)} orgs. Bisecting to find the bad org...")
                 mid = len(chunk) // 2
@@ -188,16 +194,9 @@ def fetch_chunk_with_bisect(chunk, base_query, dead_orgs):
                 dead_orgs.add(dead_org)
                 return []
         else:
-            detail = ""
-            try:
-                detail = e.read().decode("utf-8", errors="replace")
-            except Exception:
-                detail = str(getattr(e, "reason", ""))
-            print(f"GitHub API error {e.code}: {(detail or str(getattr(e, 'reason', ''))).strip()}")
-            return []
+            raise RuntimeError(f"GitHub API error {e.code}: {detail.strip()}")
     except Exception as e:
-        print(f"Unexpected error during search: {e}")
-        return []
+        raise RuntimeError(f"Unexpected error during search: {e}")
 
 
 def main():
@@ -242,9 +241,12 @@ def main():
     
     # Execute partitioned searches with bisection logic
     for chunk in chunks:
-        all_issues.extend(fetch_chunk_with_bisect(chunk, base_query, dead_orgs))
-        
-    # Save the updated dead orgs cache
+        try:
+            all_issues.extend(fetch_chunk_with_bisect(chunk, base_query, dead_orgs))
+        except RuntimeError as e:
+            print(f"Critical error: {e}")
+            print("Aborting to preserve last valid state. The README will not be overwritten with partial data.")
+            return
     with open(DEAD_ORGS_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(list(dead_orgs)), f)
             
