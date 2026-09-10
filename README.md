@@ -60,7 +60,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kubevela/workflow](https://github.com/kubevela/workflow)** | [Refactor: Align CUE compatibility caching with pkg/cache](https://github.com/kubevela/workflow/issues/256) | enhancement, help wanted | Aug 24, 2026 |
 | **[kubevela/workflow](https://github.com/kubevela/workflow)** | [Refactor: Migrate workflow memory context store to pkg/cache](https://github.com/kubevela/workflow/issues/255) | enhancement, help wanted | Aug 24, 2026 |
 | **[kubevela/workflow](https://github.com/kubevela/workflow)** | [Refactor: Migrate optional in-memory context storage to pkg/cache](https://github.com/kubevela/workflow/issues/254) | enhancement, help wanted | Aug 24, 2026 |
-| **[kubevela/workflow](https://github.com/kubevela/workflow)** | [Refactor: Migrate email routine sync.Map to pkg/cache](https://github.com/kubevela/workflow/issues/253) | enhancement, help wanted | Aug 24, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: LogRecordExporter](https://github.com/open-telemetry/opentelemetry-kotlin/issues/923) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: SimpleLogRecordProcessor](https://github.com/open-telemetry/opentelemetry-kotlin/issues/922) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: BatchLogRecordProcessor](https://github.com/open-telemetry/opentelemetry-kotlin/issues/921) | help wanted | Aug 21, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
+| **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
