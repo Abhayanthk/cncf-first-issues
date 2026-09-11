@@ -28,7 +28,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: CredentialFunc and TokenParams should take a Resource instead of a host string](https://github.com/oras-project/oras-go/issues/1382) | enhancement, help wanted | Sep 04, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: derive the repository path from the request URL in Client.Do](https://github.com/oras-project/oras-go/issues/1381) | enhancement, help wanted | Sep 04, 2026 |
 | **[shipwright-io/operator](https://github.com/shipwright-io/operator)** | [Why do we have $ throughout the docs?](https://github.com/shipwright-io/operator/issues/295) | - | Sep 04, 2026 |
-| **[backstage/backstage](https://github.com/backstage/backstage)** | [About card: field labels lost vertical spacing after AboutField switched to variant="inherit" (@backstage/plugin-catalog 2.0.8)](https://github.com/backstage/backstage/issues/35393) | type:bug, priority:contrib-needed | Sep 03, 2026 |
 | **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [\[CI\]: Automate Rebasing of Open PRs When `main`  is updated](https://github.com/kubearmor/KubeArmor/issues/2871) | enhancement | Sep 03, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 tech-radar: Error if not all quadrants are set](https://github.com/backstage/community-plugins/issues/10802) | bug, help wanted | Sep 03, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [ES/OS filter refuses most built-in fields although the schema indexes them](https://github.com/jaegertracing/jaeger/issues/9474) | help wanted | Sep 02, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
 | **[cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs)** | [Docs in light mode?](https://github.com/cedar-policy/cedar-docs/issues/224) | enhancement | Jul 21, 2026 |
+| **[krkn-chaos/krkn-hub](https://github.com/krkn-chaos/krkn-hub)** | [Add GitHub Actions workflow for cluster-less unit tests](https://github.com/krkn-chaos/krkn-hub/issues/357) | - | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
