@@ -12,7 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[cilium/little-vm-helper](https://github.com/cilium/little-vm-helper)** | [run: add an option to pass kernel command lines arguments](https://github.com/cilium/little-vm-helper/issues/716) | help wanted | Sep 10, 2026 |
+| **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [bug: Codecov badge in readme shows 0% coverage](https://github.com/kubearmor/KubeArmor/issues/2895) | bug | Sep 11, 2026 |
 | **[kubernetes-sigs/mcp-lifecycle-operator](https://github.com/kubernetes-sigs/mcp-lifecycle-operator)** | [Make GitHub Actions checks independently addressable](https://github.com/kubernetes-sigs/mcp-lifecycle-operator/issues/389) | kind/bug, help wanted | Sep 10, 2026 |
 | **[microcks/microcks-operator](https://github.com/microcks/microcks-operator)** | [async-minion: propagate `kafka.sasl.client.callback.handler.class` for MSK IAM producers](https://github.com/microcks/microcks-operator/issues/305) | help wanted, kind/enhancement | Sep 09, 2026 |
 | **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Use the spec-recommended 10000ms default interval for the stdout exporter](https://github.com/open-telemetry/opentelemetry-ruby/issues/2373) | bug, spec-compliance | Sep 09, 2026 |
