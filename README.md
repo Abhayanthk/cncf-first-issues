@@ -100,7 +100,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[cozystack/cozystack](https://github.com/cozystack/cozystack)** | [testing: pin the label-writing workflows with contract tests](https://github.com/cozystack/cozystack/issues/3589) | community, kind/cleanup | Aug 06, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Portal Assistant is not picking stored events](https://github.com/openchoreo/openchoreo/issues/4443) | Type/Bug | Aug 06, 2026 |
 | **[kaito-project/kaito](https://github.com/kaito-project/kaito)** | [Report actual max-model-len in Workspace status](https://github.com/kaito-project/kaito/issues/2257) | enhancement | Aug 05, 2026 |
-| **[open-telemetry/opentelemetry-zig](https://github.com/open-telemetry/opentelemetry-zig)** | [OTLP json object's trace id should be treated as a hex](https://github.com/open-telemetry/opentelemetry-zig/issues/50) | - | Aug 05, 2026 |
 | **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [Defkit: Lit accepts structured Go values but renders invalid CUE](https://github.com/kubevela/kubevela/issues/7281) | type/bug, help wanted | Aug 05, 2026 |
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
