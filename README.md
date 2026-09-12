@@ -12,6 +12,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Example manifests](https://github.com/openeverest/provider-milvus/issues/27) | documentation, area/docs | Sep 12, 2026 |
+| **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Unit tests for provider logic](https://github.com/openeverest/provider-milvus/issues/21) | enhancement, area/testing | Sep 12, 2026 |
 | **[kubernetes-sigs/mcp-lifecycle-operator](https://github.com/kubernetes-sigs/mcp-lifecycle-operator)** | [Make GitHub Actions checks independently addressable](https://github.com/kubernetes-sigs/mcp-lifecycle-operator/issues/389) | kind/bug, help wanted | Sep 10, 2026 |
 | **[microcks/microcks-operator](https://github.com/microcks/microcks-operator)** | [async-minion: propagate `kafka.sasl.client.callback.handler.class` for MSK IAM producers](https://github.com/microcks/microcks-operator/issues/305) | help wanted, kind/enhancement | Sep 09, 2026 |
 | **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Use the spec-recommended 10000ms default interval for the stdout exporter](https://github.com/open-telemetry/opentelemetry-ruby/issues/2373) | bug, spec-compliance | Sep 09, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
-| **[cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs)** | [Docs in light mode?](https://github.com/cedar-policy/cedar-docs/issues/224) | enhancement | Jul 21, 2026 |
-| **[krkn-chaos/krkn-hub](https://github.com/krkn-chaos/krkn-hub)** | [Add GitHub Actions workflow for cluster-less unit tests](https://github.com/krkn-chaos/krkn-hub/issues/357) | - | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
