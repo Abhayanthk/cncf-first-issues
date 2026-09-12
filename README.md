@@ -75,7 +75,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: IdGenerator](https://github.com/open-telemetry/opentelemetry-kotlin/issues/907) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: Resource](https://github.com/open-telemetry/opentelemetry-kotlin/issues/905) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-python-contrib](https://github.com/open-telemetry/opentelemetry-python-contrib)** | [Update db instrumentations documentation around OTEL_SEMCONV_STABILITY_OPT_IN](https://github.com/open-telemetry/opentelemetry-python-contrib/issues/4980) | documentation | Aug 20, 2026 |
-| **[kubeflow/testing](https://github.com/kubeflow/testing)** | [request: Add Reusable Kind cluster creation CI action](https://github.com/kubeflow/testing/issues/1068) | help wanted | Aug 20, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [Support component status attributes](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) | enhancement, extension/opamp | Aug 18, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [French function_list.md section headings were replaced with English text](https://github.com/helm/helm-www/issues/2218) | bug, help wanted | Aug 18, 2026 |
 | **[openfga/openfga.dev](https://github.com/openfga/openfga.dev)** | [Limit Markdown link checks to newly added blog posts](https://github.com/openfga/openfga.dev/issues/1344) | documentation | Aug 17, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
+| **[cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs)** | [Docs in light mode?](https://github.com/cedar-policy/cedar-docs/issues/224) | enhancement | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
