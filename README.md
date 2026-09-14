@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Resource Groups discovery based on tags](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) | enhancement, receiver/azuremonitor | Sep 14, 2026 |
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
 | **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [Retry wash wit fetch](https://github.com/wasmCloud/wasmCloud/issues/5567) | enhancement | Sep 13, 2026 |
@@ -47,7 +48,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: make Scope a typed value instead of a string, and fix CleanScopes de-duplication](https://github.com/oras-project/oras-go/issues/1363) | enhancement, help wanted | Sep 01, 2026 |
 | **[jaegertracing/jaeger-ui](https://github.com/jaegertracing/jaeger-ui)** | [\[chore\]: Contextual controls in span row in trace timeline view](https://github.com/jaegertracing/jaeger-ui/issues/4418) | help wanted | Aug 31, 2026 |
 | **[kubernetes-sigs/kubernetes-mixin](https://github.com/kubernetes-sigs/kubernetes-mixin)** | [\[Enhancement\]: Publish required metrics list with each release](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1280) | kind/feature, help wanted | Aug 31, 2026 |
-| **[k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt)** | [feat: add an opt-in ValidatingAdmissionPolicy analyzer](https://github.com/k8sgpt-ai/k8sgpt/issues/1764) | enhancement | Aug 30, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Valkey/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/142) | - | Aug 28, 2026 |
