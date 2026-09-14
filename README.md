@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[project-copacetic/copacetic](https://github.com/project-copacetic/copacetic)** | [\[BUG\] Debian 11 package downloads return 404 and block image patching tests](https://github.com/project-copacetic/copacetic/issues/1715) | bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Resource Groups discovery based on tags](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) | enhancement, receiver/azuremonitor | Sep 14, 2026 |
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
@@ -57,7 +58,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[devfile/devworkspace-operator](https://github.com/devfile/devworkspace-operator)** | [Refactor: extract shared rewriteContainerVolumeMounts logic between storage provisioners](https://github.com/devfile/devworkspace-operator/issues/1697) | - | Aug 25, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Add table-driven tests for operation-specific controller wiring](https://github.com/open-policy-agent/gatekeeper/issues/4776) | cleanup, triaged | Aug 24, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Separate Config process exclusions from validation data-sync dependencies](https://github.com/open-policy-agent/gatekeeper/issues/4775) | cleanup, triaged | Aug 24, 2026 |
-| **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Initialize violation export dependencies only when export is enabled](https://github.com/open-policy-agent/gatekeeper/issues/4774) | cleanup, triaged | Aug 24, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Scope expansion controllers to operations that evaluate expanded resources](https://github.com/open-policy-agent/gatekeeper/issues/4773) | cleanup, triaged | Aug 24, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Initialize mutation dependencies only for mutation operations](https://github.com/open-policy-agent/gatekeeper/issues/4772) | cleanup, triaged | Aug 24, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Make the generate operation work without audit or webhook](https://github.com/open-policy-agent/gatekeeper/issues/4771) | bug, triaged | Aug 24, 2026 |
