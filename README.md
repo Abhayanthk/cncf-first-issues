@@ -51,7 +51,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Valkey/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/142) | - | Aug 28, 2026 |
-| **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/MySQL/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/139) | - | Aug 28, 2026 |
 | **[cloudnative-pg/postgres-trunk-containers](https://github.com/cloudnative-pg/postgres-trunk-containers)** | [Multi-architecture support with `linux/arm64`](https://github.com/cloudnative-pg/postgres-trunk-containers/issues/151) | - | Aug 28, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [docs: edit-page links point to view-only tree URLs](https://github.com/oras-project/oras-www/issues/587) | help wanted | Aug 27, 2026 |
 | **[prometheus/client_js](https://github.com/prometheus/client_js)** | [Truthiness Reduction Program 2026](https://github.com/prometheus/client_js/issues/823) | performance | Aug 26, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
+| **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
