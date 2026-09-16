@@ -18,7 +18,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
 | **[llm-d/llm-d-inference-sim](https://github.com/llm-d/llm-d-inference-sim)** | [Typos detected by nightly scan (2 found)](https://github.com/llm-d/llm-d-inference-sim/issues/711) | typo | Sep 16, 2026 |
 | **[project-copacetic/copacetic](https://github.com/project-copacetic/copacetic)** | [\[BUG\] Debian 11 package downloads return 404 and block image patching tests](https://github.com/project-copacetic/copacetic/issues/1715) | bug | Sep 14, 2026 |
-| **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Resource Groups discovery based on tags](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50959) | enhancement, receiver/azuremonitor | Sep 14, 2026 |
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
 | **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [Retry wash wit fetch](https://github.com/wasmCloud/wasmCloud/issues/5567) | enhancement | Sep 13, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
+| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
