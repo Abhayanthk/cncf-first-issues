@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [`TraceState.put` does not move modified keys to the front of the list](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1056) | help wanted | Sep 16, 2026 |
 | **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
@@ -24,6 +25,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Example manifests](https://github.com/openeverest/provider-milvus/issues/27) | documentation, area/docs | Sep 12, 2026 |
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Unit tests for provider logic](https://github.com/openeverest/provider-milvus/issues/21) | enhancement, area/testing | Sep 12, 2026 |
 | **[microcks/microcks](https://github.com/microcks/microcks)** | [Services list triggers duplicate search API calls when filtering by domain label](https://github.com/microcks/microcks/issues/2297) | kind/bug, component/ux | Sep 10, 2026 |
+| **[podman-container-tools/podman](https://github.com/podman-container-tools/podman)** | [RFC: drop --cpu-rt-period and --cpu-rt-runtime flags?](https://github.com/podman-container-tools/podman/issues/29750) | triaged, 7.0 | Sep 10, 2026 |
 | **[kubernetes-sigs/mcp-lifecycle-operator](https://github.com/kubernetes-sigs/mcp-lifecycle-operator)** | [Make GitHub Actions checks independently addressable](https://github.com/kubernetes-sigs/mcp-lifecycle-operator/issues/389) | kind/bug, help wanted | Sep 10, 2026 |
 | **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [chart values.yaml overclaims that every plugins entry is file-backed](https://github.com/wasmCloud/wasmCloud/issues/5551) | - | Sep 09, 2026 |
 | **[microcks/microcks-operator](https://github.com/microcks/microcks-operator)** | [async-minion: propagate `kafka.sasl.client.callback.handler.class` for MSK IAM producers](https://github.com/microcks/microcks-operator/issues/305) | help wanted, kind/enhancement | Sep 09, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
-| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
