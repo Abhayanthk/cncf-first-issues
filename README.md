@@ -12,7 +12,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [feat: Group dependency updates into one PR ( renovate and dependabot)](https://github.com/kubearmor/KubeArmor/issues/2903) | enhancement | Sep 16, 2026 |
+| **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
+| **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
 | **[llm-d/llm-d-inference-sim](https://github.com/llm-d/llm-d-inference-sim)** | [Typos detected by nightly scan (2 found)](https://github.com/llm-d/llm-d-inference-sim/issues/711) | typo | Sep 16, 2026 |
 | **[project-copacetic/copacetic](https://github.com/project-copacetic/copacetic)** | [\[BUG\] Debian 11 package downloads return 404 and block image patching tests](https://github.com/project-copacetic/copacetic/issues/1715) | bug | Sep 14, 2026 |
@@ -85,7 +86,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openfga/openfga.dev](https://github.com/openfga/openfga.dev)** | [Limit Markdown link checks to newly added blog posts](https://github.com/openfga/openfga.dev/issues/1344) | documentation | Aug 17, 2026 |
 | **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [Multi-controller sync: `CheckWorkflowExistence` deletes other controllers' pending queue entries](https://github.com/argoproj/argo-workflows/issues/16737) | - | Aug 17, 2026 |
 | **[openeverest/helm-charts](https://github.com/openeverest/helm-charts)** | [Update installation note in v2](https://github.com/openeverest/helm-charts/issues/87) | - | Aug 14, 2026 |
-| **[containers/crun](https://github.com/containers/crun)** | [`SCHED_DEADLINE` range check allows value equal to 2^63 (off-by-one vs. cited spec)](https://github.com/containers/crun/issues/2190) | - | Aug 13, 2026 |
 | **[kubewarden/adm-controller](https://github.com/kubewarden/adm-controller)** | [Mark CI is green when no actual CI is required to run](https://github.com/kubewarden/adm-controller/issues/1937) | kind/good first issue, area/ci | Aug 13, 2026 |
 | **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [refactor: stop the logging module from being responsible for fatal](https://github.com/argoproj/argo-workflows/issues/16692) | - | Aug 13, 2026 |
 | **[prometheus/docs](https://github.com/prometheus/docs)** | [content duplication:  Getting Started and First Steps](https://github.com/prometheus/docs/issues/3066) | kind/enhancement | Aug 12, 2026 |
