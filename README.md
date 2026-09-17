@@ -16,11 +16,11 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
-| **[llm-d/llm-d-inference-sim](https://github.com/llm-d/llm-d-inference-sim)** | [Typos detected by nightly scan (2 found)](https://github.com/llm-d/llm-d-inference-sim/issues/711) | typo | Sep 16, 2026 |
 | **[project-copacetic/copacetic](https://github.com/project-copacetic/copacetic)** | [\[BUG\] Debian 11 package downloads return 404 and block image patching tests](https://github.com/project-copacetic/copacetic/issues/1715) | bug | Sep 14, 2026 |
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
 | **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [Retry wash wit fetch](https://github.com/wasmCloud/wasmCloud/issues/5567) | enhancement | Sep 13, 2026 |
+| **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [add custom favicon to documentation site](https://github.com/bootc-dev/bootc/issues/2457) | triaged | Sep 12, 2026 |
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Example manifests](https://github.com/openeverest/provider-milvus/issues/27) | documentation, area/docs | Sep 12, 2026 |
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Unit tests for provider logic](https://github.com/openeverest/provider-milvus/issues/21) | enhancement, area/testing | Sep 12, 2026 |
 | **[microcks/microcks](https://github.com/microcks/microcks)** | [Services list triggers duplicate search API calls when filtering by domain label](https://github.com/microcks/microcks/issues/2297) | kind/bug, component/ux | Sep 10, 2026 |
@@ -40,7 +40,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: Login and Logout key the credential store on the host, so namespaced logins overwrite each other](https://github.com/oras-project/oras-go/issues/1384) | enhancement, help wanted | Sep 04, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: token cache key ignores the namespace, so credentials can be shared across namespaces on one host](https://github.com/oras-project/oras-go/issues/1383) | bug, help wanted | Sep 04, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: CredentialFunc and TokenParams should take a Resource instead of a host string](https://github.com/oras-project/oras-go/issues/1382) | enhancement, help wanted | Sep 04, 2026 |
-| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: derive the repository path from the request URL in Client.Do](https://github.com/oras-project/oras-go/issues/1381) | enhancement, help wanted | Sep 04, 2026 |
 | **[shipwright-io/operator](https://github.com/shipwright-io/operator)** | [Why do we have $ throughout the docs?](https://github.com/shipwright-io/operator/issues/295) | - | Sep 04, 2026 |
 | **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [\[CI\]: Automate Rebasing of Open PRs When `main`  is updated](https://github.com/kubearmor/KubeArmor/issues/2871) | enhancement | Sep 03, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 tech-radar: Error if not all quadrants are set](https://github.com/backstage/community-plugins/issues/10802) | bug, help wanted | Sep 03, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
