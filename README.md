@@ -12,6 +12,11 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[kubernetes/website](https://github.com/kubernetes/website)** | [Invalid YAML indentation in Windows user guide Deployment example](https://github.com/kubernetes/website/issues/57581) | help wanted, kind/bug | Sep 17, 2026 |
+| **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
+| **[podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop)** | [refactor(main): mv `src/plugin/install` into `src/plugin/extension`](https://github.com/podman-desktop/podman-desktop/issues/19298) | status/need-triage, domain/technical-debt | Sep 17, 2026 |
+| **[podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop)** | [feat(FileInput.svelte): support error and disable props](https://github.com/podman-desktop/podman-desktop/issues/19296) | status/need-triage, domain/ui-components | Sep 17, 2026 |
+| **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [`TraceState.put` does not move modified keys to the front of the list](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1056) | help wanted | Sep 16, 2026 |
 | **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
@@ -107,11 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
 | **[interlink-hq/interLink](https://github.com/interlink-hq/interLink)** | [Introduce CSI custom driver for commands to be executed on the remote host](https://github.com/interlink-hq/interLink/issues/549) | enhancement | Jul 29, 2026 |
-| **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
-| **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
