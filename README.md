@@ -12,10 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[karmada-io/karmada](https://github.com/karmada-io/karmada)** | [Remove the retired Go Report Card badge from README](https://github.com/karmada-io/karmada/issues/7897) | - | Sep 18, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
-| **[podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop)** | [refactor(main): mv `src/plugin/install` into `src/plugin/extension`](https://github.com/podman-desktop/podman-desktop/issues/19298) | status/need-triage, domain/technical-debt | Sep 17, 2026 |
-| **[podman-desktop/podman-desktop](https://github.com/podman-desktop/podman-desktop)** | [feat(FileInput.svelte): support error and disable props](https://github.com/podman-desktop/podman-desktop/issues/19296) | status/need-triage, domain/ui-components | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [`TraceState.put` does not move modified keys to the front of the list](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1056) | help wanted | Sep 16, 2026 |
 | **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
@@ -112,6 +109,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
+| **[interlink-hq/interLink](https://github.com/interlink-hq/interLink)** | [Introduce CSI custom driver for commands to be executed on the remote host](https://github.com/interlink-hq/interLink/issues/549) | enhancement | Jul 29, 2026 |
+| **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
+| **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
