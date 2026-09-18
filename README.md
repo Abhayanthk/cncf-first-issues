@@ -12,9 +12,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [bug(ui): Change version state dialog shows SUNSET as "Unknown"](https://github.com/Apicurio/apicurio-registry/issues/10175) | type/bug, Beginner Friendly | Sep 18, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
-| **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [`TraceState.put` does not move modified keys to the front of the list](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1056) | help wanted | Sep 16, 2026 |
 | **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
