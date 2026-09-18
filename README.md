@@ -22,7 +22,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
 | **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [Retry wash wit fetch](https://github.com/wasmCloud/wasmCloud/issues/5567) | enhancement | Sep 13, 2026 |
-| **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [add custom favicon to documentation site](https://github.com/bootc-dev/bootc/issues/2457) | triaged | Sep 12, 2026 |
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Example manifests](https://github.com/openeverest/provider-milvus/issues/27) | documentation, area/docs | Sep 12, 2026 |
 | **[openeverest/provider-milvus](https://github.com/openeverest/provider-milvus)** | [Unit tests for provider logic](https://github.com/openeverest/provider-milvus/issues/21) | enhancement, area/testing | Sep 12, 2026 |
 | **[microcks/microcks](https://github.com/microcks/microcks)** | [Services list triggers duplicate search API calls when filtering by domain label](https://github.com/microcks/microcks/issues/2297) | kind/bug, component/ux | Sep 10, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[interlink-hq/interLink](https://github.com/interlink-hq/interLink)** | [Introduce CSI custom driver for commands to be executed on the remote host](https://github.com/interlink-hq/interLink/issues/549) | enhancement | Jul 29, 2026 |
 | **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
 | **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
+| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
