@@ -12,8 +12,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Run `make lint` on all os/arch variants](https://github.com/kubernetes/minikube/issues/23746) | area/testing | Sep 19, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
-| **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [functional test: Add more podman driver variants](https://github.com/kubernetes/minikube/issues/23723) | area/testing | Sep 18, 2026 |
 | **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [opentelemetry-operator: metrics server binds 0.0.0.0 with no value to override it, so it is unreachable on IPv6 clusters](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2414) | bug, help wanted | Sep 17, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
