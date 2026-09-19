@@ -43,7 +43,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-feature/go-sdk](https://github.com/open-feature/go-sdk)** | [\[BUG\] telemetry: feature_flag.context.id is emitted as an empty string when no targeting key is set](https://github.com/open-feature/go-sdk/issues/563) | bug | Sep 05, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: Login and Logout key the credential store on the host, so namespaced logins overwrite each other](https://github.com/oras-project/oras-go/issues/1384) | enhancement, help wanted | Sep 04, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: token cache key ignores the namespace, so credentials can be shared across namespaces on one host](https://github.com/oras-project/oras-go/issues/1383) | bug, help wanted | Sep 04, 2026 |
-| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: CredentialFunc and TokenParams should take a Resource instead of a host string](https://github.com/oras-project/oras-go/issues/1382) | enhancement, help wanted | Sep 04, 2026 |
 | **[shipwright-io/operator](https://github.com/shipwright-io/operator)** | [Why do we have $ throughout the docs?](https://github.com/shipwright-io/operator/issues/295) | - | Sep 04, 2026 |
 | **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [\[CI\]: Automate Rebasing of Open PRs When `main`  is updated](https://github.com/kubearmor/KubeArmor/issues/2871) | enhancement | Sep 03, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 tech-radar: Error if not all quadrants are set](https://github.com/backstage/community-plugins/issues/10802) | bug, help wanted | Sep 03, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
 | **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
+| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
