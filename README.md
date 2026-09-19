@@ -14,7 +14,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 |---------|-------|--------|---------|
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [functional test: Add more podman driver variants](https://github.com/kubernetes/minikube/issues/23723) | area/testing | Sep 18, 2026 |
-| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [bug(ui): Change version state dialog shows SUNSET as "Unknown"](https://github.com/Apicurio/apicurio-registry/issues/10175) | type/bug, Beginner Friendly | Sep 18, 2026 |
 | **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [opentelemetry-operator: metrics server binds 0.0.0.0 with no value to override it, so it is unreachable on IPv6 clusters](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2414) | bug, help wanted | Sep 17, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
@@ -60,7 +59,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Valkey/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/142) | - | Aug 28, 2026 |
-| **[cloudnative-pg/postgres-trunk-containers](https://github.com/cloudnative-pg/postgres-trunk-containers)** | [Multi-architecture support with `linux/arm64`](https://github.com/cloudnative-pg/postgres-trunk-containers/issues/151) | - | Aug 28, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [docs: edit-page links point to view-only tree URLs](https://github.com/oras-project/oras-www/issues/587) | help wanted | Aug 27, 2026 |
 | **[prometheus/client_js](https://github.com/prometheus/client_js)** | [Truthiness Reduction Program 2026](https://github.com/prometheus/client_js/issues/823) | performance | Aug 26, 2026 |
 | **[devfile/devworkspace-operator](https://github.com/devfile/devworkspace-operator)** | [Refactor: extract shared rewriteContainerVolumeMounts logic between storage provisioners](https://github.com/devfile/devworkspace-operator/issues/1697) | - | Aug 25, 2026 |
@@ -112,6 +110,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
 | **[interlink-hq/interLink](https://github.com/interlink-hq/interLink)** | [Introduce CSI custom driver for commands to be executed on the remote host](https://github.com/interlink-hq/interLink/issues/549) | enhancement | Jul 29, 2026 |
 | **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
+| **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
+| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
