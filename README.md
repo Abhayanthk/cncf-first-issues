@@ -17,7 +17,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [opentelemetry-operator: metrics server binds 0.0.0.0 with no value to override it, so it is unreachable on IPv6 clusters](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2414) | bug, help wanted | Sep 17, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
-| **[kubernetes/website](https://github.com/kubernetes/website)** | [Unwanted initial heading for 2026-08-28 blog article](https://github.com/kubernetes/website/issues/57558) | help wanted, kind/bug | Sep 16, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 graphiql: The /graphiql page always shows "No endpoints available"](https://github.com/backstage/community-plugins/issues/10998) | bug, help wanted | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
