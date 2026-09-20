@@ -58,7 +58,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Valkey/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/142) | - | Aug 28, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [docs: edit-page links point to view-only tree URLs](https://github.com/oras-project/oras-www/issues/587) | help wanted | Aug 27, 2026 |
 | **[prometheus/client_js](https://github.com/prometheus/client_js)** | [Truthiness Reduction Program 2026](https://github.com/prometheus/client_js/issues/823) | performance | Aug 26, 2026 |
 | **[devfile/devworkspace-operator](https://github.com/devfile/devworkspace-operator)** | [Refactor: extract shared rewriteContainerVolumeMounts logic between storage provisioners](https://github.com/devfile/devworkspace-operator/issues/1697) | - | Aug 25, 2026 |
 | **[open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper)** | [Add table-driven tests for operation-specific controller wiring](https://github.com/open-policy-agent/gatekeeper/issues/4776) | cleanup, triaged | Aug 24, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[velero-io/velero](https://github.com/velero-io/velero)** | [Enable context TODO Linter](https://github.com/velero-io/velero/issues/10086) | kind/tech-debt, Enhancement/User | Jul 27, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
+| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
