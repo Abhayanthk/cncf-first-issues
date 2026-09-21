@@ -12,9 +12,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[kserve/kserve](https://github.com/kserve/kserve)** | [Support InferenceService environment variables for storage-initializer authentication](https://github.com/kserve/kserve/issues/6260) | - | Sep 21, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Unused action in github workflow](https://github.com/oras-project/oras-go/issues/1429) | help wanted, v3 | Sep 18, 2026 |
-| **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [opentelemetry-operator: metrics server binds 0.0.0.0 with no value to override it, so it is unreachable on IPv6 clusters](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2414) | bug, help wanted | Sep 17, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [AzureUrlReader doesn't back off or fall back to cache on Azure DevOps rate-limit signals](https://github.com/backstage/backstage/issues/35756) | priority:contrib-needed, area:catalog | Sep 17, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 graphiql: The /graphiql page always shows "No endpoints available"](https://github.com/backstage/community-plugins/issues/10998) | bug, help wanted | Sep 16, 2026 |
