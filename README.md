@@ -81,7 +81,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-python-contrib](https://github.com/open-telemetry/opentelemetry-python-contrib)** | [Update db instrumentations documentation around OTEL_SEMCONV_STABILITY_OPT_IN](https://github.com/open-telemetry/opentelemetry-python-contrib/issues/4980) | documentation | Aug 20, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [Support component status attributes](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) | enhancement, extension/opamp | Aug 18, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [French function_list.md section headings were replaced with English text](https://github.com/helm/helm-www/issues/2218) | bug, help wanted | Aug 18, 2026 |
-| **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [Multi-controller sync: `CheckWorkflowExistence` deletes other controllers' pending queue entries](https://github.com/argoproj/argo-workflows/issues/16737) | - | Aug 17, 2026 |
 | **[openeverest/helm-charts](https://github.com/openeverest/helm-charts)** | [Update installation note in v2](https://github.com/openeverest/helm-charts/issues/87) | - | Aug 14, 2026 |
 | **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [refactor: stop the logging module from being responsible for fatal](https://github.com/argoproj/argo-workflows/issues/16692) | - | Aug 13, 2026 |
 | **[prometheus/docs](https://github.com/prometheus/docs)** | [content duplication:  Getting Started and First Steps](https://github.com/prometheus/docs/issues/3066) | kind/enhancement | Aug 12, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
+| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
