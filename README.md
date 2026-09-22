@@ -88,6 +88,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Starting/ending telemetry is unguarded](https://github.com/open-telemetry/opentelemetry-kotlin/issues/791) | bug, help wanted | Aug 11, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [TelemetryExporter does not close HttpClient](https://github.com/open-telemetry/opentelemetry-kotlin/issues/784) | bug, help wanted | Aug 11, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [Required <SelectInput> fields render without the required (*) marker](https://github.com/openeverest/openeverest/issues/2844) | bug, ui | Aug 09, 2026 |
+| **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [Bug: Telemetry job triggers API server DoS when TELEMETRY_INTERVAL is set to 0s](https://github.com/openeverest/openeverest/issues/2831) | bug, v1 | Aug 09, 2026 |
 | **[openeverest/plugin-hub](https://github.com/openeverest/plugin-hub)** | [Support air-gapped environments](https://github.com/openeverest/plugin-hub/issues/12) | help wanted | Aug 09, 2026 |
 | **[cozystack/cozystack](https://github.com/cozystack/cozystack)** | [testing: 89 of 165 packages have no helm test target, including eight user-facing apps](https://github.com/cozystack/cozystack/issues/3631) | community, kind/cleanup | Aug 07, 2026 |
 | **[external-secrets/external-secrets](https://github.com/external-secrets/external-secrets)** | [PushSecret always calls DeleteResourcePolicy on AWS Secrets Manager, even when resourcePolicy is not configured](https://github.com/external-secrets/external-secrets/issues/6806) | kind/documentation, area/aws | Aug 07, 2026 |
@@ -111,7 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
-| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
