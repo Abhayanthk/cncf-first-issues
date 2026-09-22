@@ -12,6 +12,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[kubeflow/spark-operator](https://github.com/kubeflow/spark-operator)** | [Add AGENTS.md and CLAUDE.md for AI coding agents](https://github.com/kubeflow/spark-operator/issues/3187) | help wanted, kind/feature | Sep 22, 2026 |
+| **[kubeflow/notebooks](https://github.com/kubeflow/notebooks)** | [`defaultMode: 0` on secret volume mounts is silently reset to `420` (world-readable)](https://github.com/kubeflow/notebooks/issues/1423) | kind/bug, area/controller | Sep 22, 2026 |
+| **[microcks/microcks-testcontainers-dotnet](https://github.com/microcks/microcks-testcontainers-dotnet)** | [`MicrocksContainerEnsemble.DisposeAsync()` never disposes the network it created — Docker address pools get exhausted](https://github.com/microcks/microcks-testcontainers-dotnet/issues/285) | kind/bug | Sep 22, 2026 |
 | **[kserve/kserve](https://github.com/kserve/kserve)** | [Support InferenceService environment variables for storage-initializer authentication](https://github.com/kserve/kserve/issues/6260) | - | Sep 21, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Unused action in github workflow](https://github.com/oras-project/oras-go/issues/1429) | help wanted, v3 | Sep 18, 2026 |
@@ -109,9 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
-| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
-| **[cedar-policy/cedar-docs](https://github.com/cedar-policy/cedar-docs)** | [Docs in light mode?](https://github.com/cedar-policy/cedar-docs/issues/224) | enhancement | Jul 21, 2026 |
-| **[krkn-chaos/krkn-hub](https://github.com/krkn-chaos/krkn-hub)** | [Add GitHub Actions workflow for cluster-less unit tests](https://github.com/krkn-chaos/krkn-hub/issues/357) | - | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
