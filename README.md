@@ -12,12 +12,12 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [\[Chore\]: Make the search depth and page size unsigned on the internal query types](https://github.com/jaegertracing/jaeger/issues/9637) | help wanted | Sep 23, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential](https://github.com/oras-project/oras-go/issues/1443) | bug, help wanted | Sep 23, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [ci: pass release tag values through env vars on v2](https://github.com/oras-project/oras-go/issues/1442) | help wanted, v2 | Sep 23, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[microcks/microcks-testcontainers-dotnet](https://github.com/microcks/microcks-testcontainers-dotnet)** | [`MicrocksContainerEnsemble.DisposeAsync()` never disposes the network it created — Docker address pools get exhausted](https://github.com/microcks/microcks-testcontainers-dotnet/issues/285) | kind/bug | Sep 22, 2026 |
 | **[kserve/kserve](https://github.com/kserve/kserve)** | [Support InferenceService environment variables for storage-initializer authentication](https://github.com/kserve/kserve/issues/6260) | - | Sep 21, 2026 |
-| **[podman-container-tools/podman](https://github.com/podman-container-tools/podman)** | [\[kube\] Add "podman container inspect" field to help distinguish init containers](https://github.com/podman-container-tools/podman/issues/29811) | kind/feature, triaged | Sep 21, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Unused action in github workflow](https://github.com/oras-project/oras-go/issues/1429) | help wanted, v3 | Sep 18, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
