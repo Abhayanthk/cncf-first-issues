@@ -12,6 +12,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: the legacy config fallback in GetAuthConfig matches path-bearing keys, so a host lookup can return a namespaced credential](https://github.com/oras-project/oras-go/issues/1443) | bug, help wanted | Sep 23, 2026 |
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [ci: pass release tag values through env vars on v2](https://github.com/oras-project/oras-go/issues/1442) | help wanted, v2 | Sep 23, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[microcks/microcks-testcontainers-dotnet](https://github.com/microcks/microcks-testcontainers-dotnet)** | [`MicrocksContainerEnsemble.DisposeAsync()` never disposes the network it created — Docker address pools get exhausted](https://github.com/microcks/microcks-testcontainers-dotnet/issues/285) | kind/bug | Sep 22, 2026 |
 | **[kserve/kserve](https://github.com/kserve/kserve)** | [Support InferenceService environment variables for storage-initializer authentication](https://github.com/kserve/kserve/issues/6260) | - | Sep 21, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
-| **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
-| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
