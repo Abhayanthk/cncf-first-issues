@@ -12,7 +12,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [`wash oci` ignores `SSL_CERT_FILE` and the OS trust store for private-CA registries](https://github.com/wasmCloud/wasmCloud/issues/5607) | enhancement | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [Do we really need two lanes for `verify codegen` and `verify mocksgen`](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999) | - | Sep 24, 2026 |
@@ -28,7 +27,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 graphiql: The /graphiql page always shows "No endpoints available"](https://github.com/backstage/community-plugins/issues/10998) | bug, help wanted | Sep 16, 2026 |
 | **[bootc-dev/bootc](https://github.com/bootc-dev/bootc)** | [Add `--target-imgref` option to bootc switch](https://github.com/bootc-dev/bootc/issues/2464) | - | Sep 16, 2026 |
 | **[microcks/microcks.io](https://github.com/microcks/microcks.io)** | [External Link Check Report](https://github.com/microcks/microcks.io/issues/584) | help wanted, report | Sep 16, 2026 |
-| **[cozystack/cozystack](https://github.com/cozystack/cozystack)** | [hack/e2e-chainsaw/README.md omits jq from the bucket suite host requirements](https://github.com/cozystack/cozystack/issues/4295) | kind/documentation, priority/backlog | Sep 16, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 Grafana: Alert Card Do no show State Column in New FrontEnd System](https://github.com/backstage/community-plugins/issues/10991) | bug, help wanted | Sep 15, 2026 |
 | **[Kuadrant/kuadrant-operator](https://github.com/Kuadrant/kuadrant-operator)** | [Correct var name in envoy logging docs](https://github.com/Kuadrant/kuadrant-operator/issues/2252) | area/doc, bug | Sep 14, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Grape v4 upgrade fails](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2581) | help wanted, instrumentation-grape | Sep 14, 2026 |
@@ -48,7 +46,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[krkn-chaos/krkn-hub](https://github.com/krkn-chaos/krkn-hub)** | [zone-outages: krknctl/env.sh parity and documentation gaps (docs-sync #648)](https://github.com/krkn-chaos/krkn-hub/issues/392) | - | Sep 07, 2026 |
 | **[open-telemetry/opentelemetry-ruby-contrib](https://github.com/open-telemetry/opentelemetry-ruby-contrib)** | [Capture lmdb `drop` & `has` operations](https://github.com/open-telemetry/opentelemetry-ruby-contrib/issues/2563) | help wanted, instrumentation-lmdb | Sep 06, 2026 |
 | **[open-feature/go-sdk](https://github.com/open-feature/go-sdk)** | [\[BUG\] telemetry: feature_flag.context.id is emitted as an empty string when no targeting key is set](https://github.com/open-feature/go-sdk/issues/563) | bug | Sep 05, 2026 |
-| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth: Login and Logout key the credential store on the host, so namespaced logins overwrite each other](https://github.com/oras-project/oras-go/issues/1384) | enhancement, help wanted | Sep 04, 2026 |
 | **[shipwright-io/operator](https://github.com/shipwright-io/operator)** | [Why do we have $ throughout the docs?](https://github.com/shipwright-io/operator/issues/295) | - | Sep 04, 2026 |
 | **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [\[CI\]: Automate Rebasing of Open PRs When `main`  is updated](https://github.com/kubearmor/KubeArmor/issues/2871) | enhancement | Sep 03, 2026 |
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 tech-radar: Error if not all quadrants are set](https://github.com/backstage/community-plugins/issues/10802) | bug, help wanted | Sep 03, 2026 |
@@ -112,6 +109,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
+| **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
+| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
