@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[wasmCloud/wasmCloud](https://github.com/wasmCloud/wasmCloud)** | [`wash oci` ignores `SSL_CERT_FILE` and the OS trust store for private-CA registries](https://github.com/wasmCloud/wasmCloud/issues/5607) | enhancement | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [Do we really need two lanes for `verify codegen` and `verify mocksgen`](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6999) | - | Sep 24, 2026 |
@@ -111,7 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
-| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
