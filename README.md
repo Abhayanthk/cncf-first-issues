@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support a template endpoint for arbitrary HTTP inference APIs](https://github.com/kubernetes-sigs/inference-perf/issues/838) | - | Sep 25, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support the rerank API](https://github.com/kubernetes-sigs/inference-perf/issues/837) | - | Sep 25, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support the embeddings API](https://github.com/kubernetes-sigs/inference-perf/issues/836) | - | Sep 25, 2026 |
@@ -22,7 +23,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [\[Chore\]: Make the search depth and page size unsigned on the internal query types](https://github.com/jaegertracing/jaeger/issues/9637) | help wanted | Sep 23, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[pkg/ottl\] `Time()` treats a trailing `%Z` as UTC](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51416) | bug, priority:p2 | Sep 23, 2026 |
-| **[kserve/kserve](https://github.com/kserve/kserve)** | [Support InferenceService environment variables for storage-initializer authentication](https://github.com/kserve/kserve/issues/6260) | - | Sep 21, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) | receiver/azuremonitor | Sep 21, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | [Build on macos-15-intel is flaky](https://github.com/containers/kubernetes-mcp-server/issues/1445) | help wanted | Sep 17, 2026 |
