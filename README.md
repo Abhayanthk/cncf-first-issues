@@ -12,7 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)** | [Extract DNS configuration from pre-install from role kubernetes/preinstall](https://github.com/kubernetes-sigs/kubespray/issues/13585) | help wanted, kind/feature | Sep 27, 2026 |
+| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [Enable native-filter coverage in memory-backed integration suites](https://github.com/jaegertracing/jaeger/issues/9666) | - | Sep 27, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support a template endpoint for arbitrary HTTP inference APIs](https://github.com/kubernetes-sigs/inference-perf/issues/838) | - | Sep 25, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support the rerank API](https://github.com/kubernetes-sigs/inference-perf/issues/837) | - | Sep 25, 2026 |
