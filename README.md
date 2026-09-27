@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[kubernetes-sigs/kubespray](https://github.com/kubernetes-sigs/kubespray)** | [Extract DNS configuration from pre-install from role kubernetes/preinstall](https://github.com/kubernetes-sigs/kubespray/issues/13585) | help wanted, kind/feature | Sep 27, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support a template endpoint for arbitrary HTTP inference APIs](https://github.com/kubernetes-sigs/inference-perf/issues/838) | - | Sep 25, 2026 |
 | **[kubernetes-sigs/inference-perf](https://github.com/kubernetes-sigs/inference-perf)** | [Support the rerank API](https://github.com/kubernetes-sigs/inference-perf/issues/837) | - | Sep 25, 2026 |
@@ -111,7 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @testing-library/jest-dom 6 → 7](https://github.com/oras-project/oras-www/issues/582) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade @fortawesome/fontawesome-free 6 → 7](https://github.com/oras-project/oras-www/issues/581) | help wanted, dependencies | Jul 24, 2026 |
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
-| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
