@@ -12,7 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [Enable native-filter coverage in memory-backed integration suites](https://github.com/jaegertracing/jaeger/issues/9666) | - | Sep 27, 2026 |
+| **[score-spec/docs](https://github.com/score-spec/docs)** | [error postcss-cli@12.0.0: The engine "node" is incompatible with this module. Expected version ">=22". Got "20.20.2"](https://github.com/score-spec/docs/issues/329) | bug, help wanted | Sep 30, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
