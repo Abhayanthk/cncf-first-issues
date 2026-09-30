@@ -12,13 +12,14 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[score-spec/docs](https://github.com/score-spec/docs)** | [error postcss-cli@12.0.0: The engine "node" is incompatible with this module. Expected version ">=22". Got "20.20.2"](https://github.com/score-spec/docs/issues/329) | bug, help wanted | Sep 30, 2026 |
+| **[kubeflow/trainer](https://github.com/kubeflow/trainer)** | [Use common boilerplate check script](https://github.com/kubeflow/trainer/issues/4143) | help wanted, area/engprod | Sep 30, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[external-secrets/external-secrets](https://github.com/external-secrets/external-secrets)** | [No warning or validation when `replicaCount > 1` and `leaderElect=false`](https://github.com/external-secrets/external-secrets/issues/7025) | kind/feature, area/charts | Sep 24, 2026 |
 | **[k0sproject/k0s](https://github.com/k0sproject/k0s)** | [Move internal-only packages under internal/](https://github.com/k0sproject/k0s/issues/8371) | chore | Sep 24, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
+| **[k8gb-io/k8gb](https://github.com/k8gb-io/k8gb)** | [Bring New "CLO Monitor - Agent Readiness" report to 100%](https://github.com/k8gb-io/k8gb/issues/2539) | - | Sep 22, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) | receiver/azuremonitor | Sep 21, 2026 |
 | **[kubernetes/minikube](https://github.com/kubernetes/minikube)** | [Document how to configure host for podman --rootless driver](https://github.com/kubernetes/minikube/issues/23724) | kind/documentation | Sep 18, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [When workload is not present (build not run yet), UX in portal needs fixes](https://github.com/openchoreo/openchoreo/issues/4779) | Type/Bug | Sep 18, 2026 |
@@ -111,7 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
 | **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
-| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [jaeger_query: support serving UI assets from an archive, not just a directory](https://github.com/jaegertracing/jaeger/issues/9065) | enhancement, help wanted | Jul 21, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
