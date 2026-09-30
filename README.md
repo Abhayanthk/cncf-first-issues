@@ -12,7 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[kubeflow/trainer](https://github.com/kubeflow/trainer)** | [Use common boilerplate check script](https://github.com/kubeflow/trainer/issues/4143) | help wanted, area/engprod | Sep 30, 2026 |
+| **[open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp)** | [Duplicate global propagator setup in gRPC client example](https://github.com/open-telemetry/opentelemetry-cpp/issues/4652) | help wanted, triage/accepted | Sep 30, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
