@@ -12,6 +12,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: helm list sample output in intro/using_helm uses Helm 2 table format](https://github.com/helm/helm-www/issues/2263) | help wanted | Sep 30, 2026 |
+| **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: update English cheat sheet for Helm 4](https://github.com/helm/helm-www/issues/2262) | help wanted, docs | Sep 30, 2026 |
 | **[open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp)** | [Duplicate global propagator setup in gRPC client example](https://github.com/open-telemetry/opentelemetry-cpp/issues/4652) | help wanted, triage/accepted | Sep 30, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [chore(deps): upgrade Jest 29 → 30 (jest, babel-jest, jest-environment-jsdom)](https://github.com/oras-project/oras-www/issues/579) | help wanted, dependencies | Jul 24, 2026 |
 | **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [fix(ast): stripGenericTypes fatals on qualified pointer receivers](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/766) | bug | Jul 23, 2026 |
 | **[openeverest/provider-altinity-clickhouse](https://github.com/openeverest/provider-altinity-clickhouse)** | [\[ClickHouse\] Add support for backups and restores](https://github.com/openeverest/provider-altinity-clickhouse/issues/20) | clickhouse | Jul 22, 2026 |
-| **[open-telemetry/opentelemetry-go-compile-instrumentation](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation)** | [Signature filters fatal on functions with slice/chan/map params instead of no-match](https://github.com/open-telemetry/opentelemetry-go-compile-instrumentation/issues/756) | bug, go | Jul 22, 2026 |
-| **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)** | [Invalid `kgateway.dev/signature-algorithms` value: listener reports Programmed=True while Envoy NACKs it in a ~10/s retry loop; fresh listener port is silently dead](https://github.com/kgateway-dev/kgateway/issues/14453) | - | Jul 22, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
