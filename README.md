@@ -12,13 +12,13 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[cilium/tetragon](https://github.com/cilium/tetragon)** | [mbset: `RemoveID` returns early and leaks the followChildren ID (duplicate value, small programs)](https://github.com/cilium/tetragon/issues/5744) | help wanted, area/tracing | Oct 01, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: helm list sample output in intro/using_helm uses Helm 2 table format](https://github.com/helm/helm-www/issues/2263) | help wanted | Sep 30, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: update English cheat sheet for Helm 4](https://github.com/helm/helm-www/issues/2262) | help wanted, docs | Sep 30, 2026 |
 | **[open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp)** | [Duplicate global propagator setup in gRPC client example](https://github.com/open-telemetry/opentelemetry-cpp/issues/4652) | help wanted, triage/accepted | Sep 30, 2026 |
 | **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
-| **[external-secrets/external-secrets](https://github.com/external-secrets/external-secrets)** | [No warning or validation when `replicaCount > 1` and `leaderElect=false`](https://github.com/external-secrets/external-secrets/issues/7025) | kind/feature, area/charts | Sep 24, 2026 |
 | **[k0sproject/k0s](https://github.com/k0sproject/k0s)** | [Move internal-only packages under internal/](https://github.com/k0sproject/k0s/issues/8371) | chore | Sep 24, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[k8gb-io/k8gb](https://github.com/k8gb-io/k8gb)** | [Bring New "CLO Monitor - Agent Readiness" report to 100%](https://github.com/k8gb-io/k8gb/issues/2539) | - | Sep 22, 2026 |
