@@ -12,7 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[oras-project/oras](https://github.com/oras-project/oras)** | [Bump golang.org/x/crypto to v0.55.0 or later](https://github.com/oras-project/oras/issues/2206) | help wanted, dependencies | Oct 01, 2026 |
+| **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [Retire the 16-character trace ID form and settle on 32 hex characters everywhere](https://github.com/jaegertracing/jaeger/issues/9717) | help wanted | Oct 01, 2026 |
 | **[cilium/tetragon](https://github.com/cilium/tetragon)** | [mbset: `RemoveID` returns early and leaks the followChildren ID (duplicate value, small programs)](https://github.com/cilium/tetragon/issues/5744) | help wanted, area/tracing | Oct 01, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: update English cheat sheet for Helm 4](https://github.com/helm/helm-www/issues/2262) | help wanted, docs | Sep 30, 2026 |
 | **[open-telemetry/opentelemetry-cpp](https://github.com/open-telemetry/opentelemetry-cpp)** | [Duplicate global propagator setup in gRPC client example](https://github.com/open-telemetry/opentelemetry-cpp/issues/4652) | help wanted, triage/accepted | Sep 30, 2026 |
