@@ -21,7 +21,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [docs: update English cheat sheet for Helm 4](https://github.com/helm/helm-www/issues/2262) | help wanted, docs | Sep 30, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [Task SDK migration tracking: families N–Z](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1544) | - | Sep 28, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [Task SDK migration tracking: families A–M](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1543) | - | Sep 28, 2026 |
-| **[pipe-cd/pipecd](https://github.com/pipe-cd/pipecd)** | [ci: remove the unused code-butler workflow](https://github.com/pipe-cd/pipecd/issues/7427) | kind/bug, dependencies | Sep 26, 2026 |
 | **[score-spec/score-labspace](https://github.com/score-spec/score-labspace)** | [Advanced Score Compose - Illustrate Compose Graph](https://github.com/score-spec/score-labspace/issues/15) | enhancement, help wanted | Sep 25, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kaito-project/kaito](https://github.com/kaito-project/kaito)** | [Report actual max-model-len in Workspace status](https://github.com/kaito-project/kaito/issues/2257) | enhancement | Aug 05, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Initial build is not triggered automatically on component creation](https://github.com/openchoreo/openchoreo/issues/4409) | Type/Improvement, reportedBy/community | Aug 04, 2026 |
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
+| **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
