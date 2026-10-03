@@ -26,7 +26,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[k0sproject/k0s](https://github.com/k0sproject/k0s)** | [Move internal-only packages under internal/](https://github.com/k0sproject/k0s/issues/8371) | chore | Sep 24, 2026 |
 | **[open-telemetry/opentelemetry-browser](https://github.com/open-telemetry/opentelemetry-browser)** | [Simplify the redundant condition in `isHashChange`](https://github.com/open-telemetry/opentelemetry-browser/issues/439) | instrumentation | Sep 24, 2026 |
-| **[oras-project/oras](https://github.com/oras-project/oras)** | [chore: remove the Docker-based e2e test run now that KinD e2e has landed](https://github.com/oras-project/oras/issues/2188) | help wanted | Sep 23, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[k8gb-io/k8gb](https://github.com/k8gb-io/k8gb)** | [Bring New "CLO Monitor - Agent Readiness" report to 100%](https://github.com/k8gb-io/k8gb/issues/2539) | - | Sep 22, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) | receiver/azuremonitor | Sep 21, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Initial build is not triggered automatically on component creation](https://github.com/openchoreo/openchoreo/issues/4409) | Type/Improvement, reportedBy/community | Aug 04, 2026 |
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
+| **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
