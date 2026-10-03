@@ -12,7 +12,9 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[oras-project/oras](https://github.com/oras-project/oras)** | [chore: drop dead .gitignore entries for the Docker e2e registry mounts](https://github.com/oras-project/oras/issues/2215) | E2E testing | Oct 02, 2026 |
 | **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [\[kube-stack\] attributes specified in `resourceAttributes` are not passed to the collectors resource attributes](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2441) | bug, help wanted | Oct 02, 2026 |
+| **[open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io)** | [\[Docs\]: Community Meeting Records links unusable](https://github.com/open-telemetry/opentelemetry.io/issues/11927) | help wanted, triage:accepted | Oct 02, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [Retire the 16-character trace ID form and settle on 32 hex characters everywhere](https://github.com/jaegertracing/jaeger/issues/9717) | help wanted | Oct 01, 2026 |
 | **[backstage/backstage](https://github.com/backstage/backstage)** | [Catalog processor may throw an unbounded error payload to status and exhaust database storage](https://github.com/backstage/backstage/issues/35955) | type:bug, priority:contrib-needed | Oct 01, 2026 |
 | **[cilium/tetragon](https://github.com/cilium/tetragon)** | [mbset: `RemoveID` returns early and leaks the followChildren ID (duplicate value, small programs)](https://github.com/cilium/tetragon/issues/5744) | help wanted, area/tracing | Oct 01, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kaito-project/kaito](https://github.com/kaito-project/kaito)** | [Report actual max-model-len in Workspace status](https://github.com/kaito-project/kaito/issues/2257) | enhancement | Aug 05, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Initial build is not triggered automatically on component creation](https://github.com/openchoreo/openchoreo/issues/4409) | Type/Improvement, reportedBy/community | Aug 04, 2026 |
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
-| **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
-| **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
