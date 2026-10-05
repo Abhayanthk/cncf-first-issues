@@ -83,7 +83,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kubevela/workflow](https://github.com/kubevela/workflow)** | [Refactor: Migrate optional in-memory context storage to pkg/cache](https://github.com/kubevela/workflow/issues/254) | enhancement, help wanted | Aug 24, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: SimpleLogRecordProcessor](https://github.com/open-telemetry/opentelemetry-kotlin/issues/922) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: SimpleSpanProcessor](https://github.com/open-telemetry/opentelemetry-kotlin/issues/917) | help wanted | Aug 21, 2026 |
-| **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: SpanProcessor](https://github.com/open-telemetry/opentelemetry-kotlin/issues/915) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: ParentBasedSampler](https://github.com/open-telemetry/opentelemetry-kotlin/issues/914) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: Sampler](https://github.com/open-telemetry/opentelemetry-kotlin/issues/913) | help wanted | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Configuration: Resource](https://github.com/open-telemetry/opentelemetry-kotlin/issues/905) | help wanted | Aug 21, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
 | **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
+| **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
