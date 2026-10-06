@@ -12,6 +12,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [Unable to mount certificate secrets to secure the metric endpoint of the operator pod](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2453) | bug, help wanted | Oct 06, 2026 |
 | **[open-feature/dotnet-sdk-contrib](https://github.com/open-feature/dotnet-sdk-contrib)** | [flagd: emit only changed flag keys in ConfigurationChanged events](https://github.com/open-feature/dotnet-sdk-contrib/issues/751) | help wanted, provider:flagd | Oct 05, 2026 |
 | **[open-feature/flagd-testbed](https://github.com/open-feature/flagd-testbed)** | [Assert unchanged flags are not part of the change event payload](https://github.com/open-feature/flagd-testbed/issues/428) | help wanted | Oct 05, 2026 |
 | **[open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io)** | [\[Docs\]: Community Meeting Records links unusable](https://github.com/open-telemetry/opentelemetry.io/issues/11927) | help wanted, triage:accepted | Oct 02, 2026 |
@@ -57,7 +58,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[backstage/community-plugins](https://github.com/backstage/community-plugins)** | [🐛 tech-radar: Error if not all quadrants are set](https://github.com/backstage/community-plugins/issues/10802) | bug, help wanted | Sep 03, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [ES/OS filter refuses most built-in fields although the schema indexes them](https://github.com/jaegertracing/jaeger/issues/9474) | help wanted | Sep 02, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [ES/OS filter refuses the built-in field span.kind, though the value is indexed and queryable](https://github.com/jaegertracing/jaeger/issues/9473) | help wanted | Sep 02, 2026 |
-| **[oras-project/oras-www](https://github.com/oras-project/oras-www)** | [docs: verifying_binaries guide is out of date with KEYS and the release signing flow](https://github.com/oras-project/oras-www/issues/596) | help wanted | Sep 01, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [Post-login redirect should return to originally requested page](https://github.com/openeverest/openeverest/issues/3105) | enhancement, ui | Sep 01, 2026 |
 | **[jaegertracing/jaeger-ui](https://github.com/jaegertracing/jaeger-ui)** | [\[chore\]: Contextual controls in span row in trace timeline view](https://github.com/jaegertracing/jaeger-ui/issues/4418) | help wanted | Aug 31, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [\[Demo\] Create the canonical three-step Model Connect demo](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1107) | Community | Aug 31, 2026 |
