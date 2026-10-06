@@ -12,12 +12,10 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
-| **[open-telemetry/opentelemetry-helm-charts](https://github.com/open-telemetry/opentelemetry-helm-charts)** | [Unable to mount certificate secrets to secure the metric endpoint of the operator pod](https://github.com/open-telemetry/opentelemetry-helm-charts/issues/2453) | bug, help wanted | Oct 06, 2026 |
 | **[open-feature/dotnet-sdk-contrib](https://github.com/open-feature/dotnet-sdk-contrib)** | [flagd: emit only changed flag keys in ConfigurationChanged events](https://github.com/open-feature/dotnet-sdk-contrib/issues/751) | help wanted, provider:flagd | Oct 05, 2026 |
 | **[open-feature/flagd-testbed](https://github.com/open-feature/flagd-testbed)** | [Assert unchanged flags are not part of the change event payload](https://github.com/open-feature/flagd-testbed/issues/428) | help wanted | Oct 05, 2026 |
 | **[open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io)** | [\[Docs\]: Community Meeting Records links unusable](https://github.com/open-telemetry/opentelemetry.io/issues/11927) | help wanted, triage:accepted | Oct 02, 2026 |
 | **[jaegertracing/jaeger](https://github.com/jaegertracing/jaeger)** | [Retire the 16-character trace ID form and settle on 32 hex characters everywhere](https://github.com/jaegertracing/jaeger/issues/9717) | help wanted | Oct 01, 2026 |
-| **[backstage/backstage](https://github.com/backstage/backstage)** | [Catalog processor may throw an unbounded error payload to status and exhaust database storage](https://github.com/backstage/backstage/issues/35955) | type:bug, priority:contrib-needed | Oct 01, 2026 |
 | **[cilium/tetragon](https://github.com/cilium/tetragon)** | [mbset: `RemoveID` returns early and leaks the followChildren ID (duplicate value, small programs)](https://github.com/cilium/tetragon/issues/5744) | help wanted, area/tracing | Oct 01, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [Task SDK migration tracking: families N–Z](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1544) | - | Sep 28, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [Task SDK migration tracking: families A–M](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1543) | - | Sep 28, 2026 |
@@ -112,6 +110,8 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
 | **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
+| **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
+| **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [vela cluster join prints a false success message when the overwrite prompt is declined](https://github.com/kubevela/kubevela/issues/7273) | type/bug, help wanted | Jul 30, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
