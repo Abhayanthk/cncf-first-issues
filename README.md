@@ -24,7 +24,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[k0sproject/k0s](https://github.com/k0sproject/k0s)** | [Move internal-only packages under internal/](https://github.com/k0sproject/k0s/issues/8371) | chore | Sep 24, 2026 |
-| **[open-telemetry/opentelemetry-browser](https://github.com/open-telemetry/opentelemetry-browser)** | [Simplify the redundant condition in `isHashChange`](https://github.com/open-telemetry/opentelemetry-browser/issues/439) | instrumentation | Sep 24, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[k8gb-io/k8gb](https://github.com/k8gb-io/k8gb)** | [Bring New "CLO Monitor - Agent Readiness" report to 100%](https://github.com/k8gb-io/k8gb/issues/2539) | - | Sep 22, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/azuremonitor\] Storage Capacity metrics (BlobCapacity/UsedCapacity) publish with highly variable, undocumented delay per account](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51297) | receiver/azuremonitor | Sep 21, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
 | **[interlink-hq/interLink](https://github.com/interlink-hq/interLink)** | [Introduce CSI custom driver for commands to be executed on the remote host](https://github.com/interlink-hq/interLink/issues/549) | enhancement | Jul 29, 2026 |
+| **[interlink-hq/interlink-htcondor-plugin](https://github.com/interlink-hq/interlink-htcondor-plugin)** | [Add full documentation for configuration file](https://github.com/interlink-hq/interlink-htcondor-plugin/issues/34) | documentation | Jul 29, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
