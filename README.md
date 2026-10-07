@@ -12,9 +12,13 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [content/file.Store computes every digest with SHA-256](https://github.com/oras-project/oras-go/issues/1504) | enhancement, help wanted | Oct 07, 2026 |
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [PushBytes and TagBytesN have no digest algorithm option](https://github.com/oras-project/oras-go/issues/1503) | enhancement, help wanted | Oct 07, 2026 |
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Generated image index for multi-reference tagging is always SHA-256](https://github.com/oras-project/oras-go/issues/1502) | enhancement, help wanted | Oct 07, 2026 |
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [Validate digest algorithms in registry/remote against the oras-go allowlist](https://github.com/oras-project/oras-go/issues/1501) | enhancement, help wanted | Oct 07, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [The example app has sampling enabled](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1202) | bug | Oct 07, 2026 |
 | **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [Custom artifact types: keep the webhook's difference type and paths in compatibility violations](https://github.com/Apicurio/apicurio-registry/issues/10470) | area/rules/compatibility, area/rules | Oct 07, 2026 |
-| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [Declare rule violations on draft finalize and on legacy 409 responses](https://github.com/Apicurio/apicurio-registry/issues/10464) | area/rest, area/documentation | Oct 07, 2026 |
+| **[oras-project/oras-go](https://github.com/oras-project/oras-go)** | [auth.Client no longer enforces Go’s default redirect limit in v2.6.1 and v2.6.2](https://github.com/oras-project/oras-go/issues/1500) | bug, help wanted | Oct 07, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/kafka\] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) | receiver/kafka | Oct 06, 2026 |
 | **[open-feature/dotnet-sdk-contrib](https://github.com/open-feature/dotnet-sdk-contrib)** | [flagd: emit only changed flag keys in ConfigurationChanged events](https://github.com/open-feature/dotnet-sdk-contrib/issues/751) | help wanted, provider:flagd | Oct 05, 2026 |
 | **[open-feature/flagd-testbed](https://github.com/open-feature/flagd-testbed)** | [Assert unchanged flags are not part of the change event payload](https://github.com/open-feature/flagd-testbed/issues/428) | help wanted | Oct 05, 2026 |
@@ -66,8 +70,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[kubefleet-dev/kubefleet](https://github.com/kubefleet-dev/kubefleet)** | [Hub leader election ID uses legacy project name](https://github.com/kubefleet-dev/kubefleet/issues/859) | area/hubagent, dont-backport | Aug 31, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Remove /git-secret API resources from API Server](https://github.com/openchoreo/openchoreo/issues/4592) | Type/Task | Aug 29, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
-| **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
-| **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Valkey/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/142) | - | Aug 28, 2026 |
 | **[agent-substrate/substrate](https://github.com/agent-substrate/substrate)** | [Suggestion: Refactor koApply to an Exported Helper](https://github.com/agent-substrate/substrate/issues/1251) | kind/cleanup, area/tests | Aug 26, 2026 |
 | **[prometheus/client_js](https://github.com/prometheus/client_js)** | [Truthiness Reduction Program 2026](https://github.com/prometheus/client_js/issues/823) | performance | Aug 26, 2026 |
 | **[devfile/devworkspace-operator](https://github.com/devfile/devworkspace-operator)** | [Refactor: extract shared rewriteContainerVolumeMounts logic between storage provisioners](https://github.com/devfile/devworkspace-operator/issues/1697) | - | Aug 25, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
-| **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
-| **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
