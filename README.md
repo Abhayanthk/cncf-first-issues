@@ -12,6 +12,10 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 
 | Project | Issue | Labels | Created |
 |---------|-------|--------|---------|
+| **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [The example app has sampling enabled](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1202) | bug | Oct 07, 2026 |
+| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [Custom artifact types: keep the webhook's difference type and paths in compatibility violations](https://github.com/Apicurio/apicurio-registry/issues/10470) | area/rules/compatibility, area/rules | Oct 07, 2026 |
+| **[Apicurio/apicurio-registry](https://github.com/Apicurio/apicurio-registry)** | [Declare rule violations on draft finalize and on legacy 409 responses](https://github.com/Apicurio/apicurio-registry/issues/10464) | area/rest, area/documentation | Oct 07, 2026 |
+| **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [\[receiver/kafka\] Make the decompressed batch size limit configurable and recover from ErrDecompressTooLarge](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/51845) | receiver/kafka | Oct 06, 2026 |
 | **[open-feature/dotnet-sdk-contrib](https://github.com/open-feature/dotnet-sdk-contrib)** | [flagd: emit only changed flag keys in ConfigurationChanged events](https://github.com/open-feature/dotnet-sdk-contrib/issues/751) | help wanted, provider:flagd | Oct 05, 2026 |
 | **[open-feature/flagd-testbed](https://github.com/open-feature/flagd-testbed)** | [Assert unchanged flags are not part of the change event payload](https://github.com/open-feature/flagd-testbed/issues/428) | help wanted | Oct 05, 2026 |
 | **[open-telemetry/opentelemetry.io](https://github.com/open-telemetry/opentelemetry.io)** | [\[Docs\]: Community Meeting Records links unusable](https://github.com/open-telemetry/opentelemetry.io/issues/11927) | help wanted, triage:accepted | Oct 02, 2026 |
@@ -21,7 +25,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [Task SDK migration tracking: families A–M](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1543) | - | Sep 28, 2026 |
 | **[score-spec/score-labspace](https://github.com/score-spec/score-labspace)** | [Advanced Score Compose - Illustrate Compose Graph](https://github.com/score-spec/score-labspace/issues/15) | enhancement, help wanted | Sep 25, 2026 |
 | **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Document the Medusa BackupClass and its limitations](https://github.com/openeverest/provider-cassandra/issues/25) | documentation, roadmap | Sep 24, 2026 |
-| **[openeverest/provider-cassandra](https://github.com/openeverest/provider-cassandra)** | [Allow soft pod anti-affinity for dev and test clusters](https://github.com/openeverest/provider-cassandra/issues/23) | enhancement, roadmap | Sep 24, 2026 |
 | **[k0sproject/k0s](https://github.com/k0sproject/k0s)** | [Move internal-only packages under internal/](https://github.com/k0sproject/k0s/issues/8371) | chore | Sep 24, 2026 |
 | **[tektoncd/pipelines-as-code](https://github.com/tektoncd/pipelines-as-code)** | [Migrate Gitea tests to PR-scoped issue comments](https://github.com/tektoncd/pipelines-as-code/issues/2999) | testing | Sep 23, 2026 |
 | **[k8gb-io/k8gb](https://github.com/k8gb-io/k8gb)** | [Bring New "CLO Monitor - Agent Readiness" report to 100%](https://github.com/k8gb-io/k8gb/issues/2539) | - | Sep 22, 2026 |
@@ -90,7 +93,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[NVIDIA/cuda-rust](https://github.com/NVIDIA/cuda-rust)** | [tma_multicast's README still says consumer Blackwell cannot run it, which #668 measured and corrected everywhere else](https://github.com/NVIDIA/cuda-rust/issues/966) | - | Aug 17, 2026 |
 | **[openeverest/helm-charts](https://github.com/openeverest/helm-charts)** | [Update installation note in v2](https://github.com/openeverest/helm-charts/issues/87) | - | Aug 14, 2026 |
 | **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [\[Bug\] Defkit: CUEGenerator leaks detected imports across Generate* calls](https://github.com/kubevela/kubevela/issues/7323) | type/bug, help wanted | Aug 13, 2026 |
-| **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [refactor: stop the logging module from being responsible for fatal](https://github.com/argoproj/argo-workflows/issues/16692) | - | Aug 13, 2026 |
 | **[prometheus/docs](https://github.com/prometheus/docs)** | [content duplication:  Getting Started and First Steps](https://github.com/prometheus/docs/issues/3066) | kind/enhancement | Aug 12, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [Starting/ending telemetry is unguarded](https://github.com/open-telemetry/opentelemetry-kotlin/issues/791) | bug, help wanted | Aug 11, 2026 |
 | **[open-telemetry/opentelemetry-kotlin](https://github.com/open-telemetry/opentelemetry-kotlin)** | [TelemetryExporter does not close HttpClient](https://github.com/open-telemetry/opentelemetry-kotlin/issues/784) | bug, help wanted | Aug 11, 2026 |
@@ -110,8 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
 | **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
-| **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
-| **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [vela cluster join prints a false success message when the overwrite prompt is declined](https://github.com/kubevela/kubevela/issues/7273) | type/bug, help wanted | Jul 30, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
