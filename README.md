@@ -87,7 +87,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [\[Refactor\] Render E2E reproduction commands with shlex.join](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/976) | enhancement | Aug 21, 2026 |
 | **[open-telemetry/opentelemetry-collector-contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)** | [Support component status attributes](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/50330) | enhancement, extension/opamp | Aug 18, 2026 |
 | **[helm/helm-www](https://github.com/helm/helm-www)** | [French function_list.md section headings were replaced with English text](https://github.com/helm/helm-www/issues/2218) | bug, help wanted | Aug 18, 2026 |
-| **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [\[Bug\] multicluster.clusterGateway.port is not propagated to the controller direct URL](https://github.com/kubevela/kubevela/issues/7336) | type/bug, help wanted | Aug 18, 2026 |
 | **[NVIDIA/cuda-rust](https://github.com/NVIDIA/cuda-rust)** | [tma_multicast's README still says consumer Blackwell cannot run it, which #668 measured and corrected everywhere else](https://github.com/NVIDIA/cuda-rust/issues/966) | - | Aug 17, 2026 |
 | **[openeverest/helm-charts](https://github.com/openeverest/helm-charts)** | [Update installation note in v2](https://github.com/openeverest/helm-charts/issues/87) | - | Aug 14, 2026 |
 | **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [\[Bug\] Defkit: CUEGenerator leaks detected imports across Generate* calls](https://github.com/kubevela/kubevela/issues/7323) | type/bug, help wanted | Aug 13, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
+| **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [vela cluster join prints a false success message when the overwrite prompt is declined](https://github.com/kubevela/kubevela/issues/7273) | type/bug, help wanted | Jul 30, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
