@@ -60,6 +60,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[jaegertracing/jaeger-ui](https://github.com/jaegertracing/jaeger-ui)** | [\[chore\]: Contextual controls in span row in trace timeline view](https://github.com/jaegertracing/jaeger-ui/issues/4418) | help wanted | Aug 31, 2026 |
 | **[NVIDIA/TensorRT-Model-Connect](https://github.com/NVIDIA/TensorRT-Model-Connect)** | [\[Demo\] Create the canonical three-step Model Connect demo](https://github.com/NVIDIA/TensorRT-Model-Connect/issues/1107) | Community | Aug 31, 2026 |
 | **[argoproj/argo-workflows](https://github.com/argoproj/argo-workflows)** | [Controller and server not starting after upgrade from 4.0.3 to 4.1.2](https://github.com/argoproj/argo-workflows/issues/16842) | type/regression | Aug 31, 2026 |
+| **[kubefleet-dev/kubefleet](https://github.com/kubefleet-dev/kubefleet)** | [Hub leader election ID uses legacy project name](https://github.com/kubefleet-dev/kubefleet/issues/859) | area/hubagent, dont-backport | Aug 31, 2026 |
 | **[openchoreo/openchoreo](https://github.com/openchoreo/openchoreo)** | [Remove /git-secret API resources from API Server](https://github.com/openchoreo/openchoreo/issues/4592) | Type/Task | Aug 29, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [\[UI\] Main screen has poor CTA when there are no providers](https://github.com/openeverest/openeverest/issues/3071) | enhancement, help wanted | Aug 28, 2026 |
 | **[openeverest/openeverest.github.io](https://github.com/openeverest/openeverest.github.io)** | [Create `/for/Cassandra/` page following the MariaDB model](https://github.com/openeverest/openeverest.github.io/issues/141) | - | Aug 28, 2026 |
@@ -111,7 +112,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
 | **[openeverest/openeverest](https://github.com/openeverest/openeverest)** | [events.Hub can panic with close of closed channel when dropping a slow SSE subscriber](https://github.com/openeverest/openeverest/issues/2726) | bug, help wanted | Aug 01, 2026 |
 | **[openeverest/provider-percona-server-mongodb](https://github.com/openeverest/provider-percona-server-mongodb)** | [Backup/Restore status is missing `startedAt` and reports a fabricated `completedAt`](https://github.com/openeverest/provider-percona-server-mongodb/issues/71) | bug | Jul 31, 2026 |
-| **[kubevela/kubevela](https://github.com/kubevela/kubevela)** | [vela cluster join prints a false success message when the overwrite prompt is declined](https://github.com/kubevela/kubevela/issues/7273) | type/bug, help wanted | Jul 30, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
