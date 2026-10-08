@@ -53,7 +53,6 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[microcks/microcks-operator](https://github.com/microcks/microcks-operator)** | [async-minion: propagate `kafka.sasl.client.callback.handler.class` for MSK IAM producers](https://github.com/microcks/microcks-operator/issues/305) | help wanted, kind/enhancement | Sep 09, 2026 |
 | **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Use the spec-recommended 10000ms default interval for the stdout exporter](https://github.com/open-telemetry/opentelemetry-ruby/issues/2373) | bug, spec-compliance | Sep 09, 2026 |
 | **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Read `OTEL_EXPORTER_OTLP_METRICS_DEFAULT_HISTOGRAM_AGGREGATION`](https://github.com/open-telemetry/opentelemetry-ruby/issues/2372) | enhancement, spec-compliance | Sep 09, 2026 |
-| **[open-telemetry/opentelemetry-ruby](https://github.com/open-telemetry/opentelemetry-ruby)** | [Make instrument name conflict detection case-insensitive](https://github.com/open-telemetry/opentelemetry-ruby/issues/2357) | bug, spec-compliance | Sep 09, 2026 |
 | **[kubearmor/KubeArmor](https://github.com/kubearmor/KubeArmor)** | [Setup script on Ubuntu 18.04](https://github.com/kubearmor/KubeArmor/issues/2884) | bug | Sep 09, 2026 |
 | **[cloudnative-pg/cloudnative-pg](https://github.com/cloudnative-pg/cloudnative-pg)** | [\[Feature\]: no metric for role password expiry (VALID UNTIL)](https://github.com/cloudnative-pg/cloudnative-pg/issues/11459) | enhancement :magic_wand:, observability :mag: | Sep 08, 2026 |
 | **[krkn-chaos/krkn-hub](https://github.com/krkn-chaos/krkn-hub)** | [zone-outages: krknctl/env.sh parity and documentation gaps (docs-sync #648)](https://github.com/krkn-chaos/krkn-hub/issues/392) | - | Sep 07, 2026 |
@@ -112,6 +111,7 @@ If you're looking to start your open-source journey in Kubernetes, Prometheus, E
 | **[longhorn/longhorn](https://github.com/longhorn/longhorn)** | [\[BUG\] Deleting backups causes lots of errors if s3 path cleanup is slow](https://github.com/longhorn/longhorn/issues/13646) | kind/bug, priority/2 | Aug 04, 2026 |
 | **[argoproj/argo-cd](https://github.com/argoproj/argo-cd)** | [Make the pending-resource list limit in `argocd app wait` timeout errors configurable](https://github.com/argoproj/argo-cd/issues/29031) | enhancement, component:cli | Aug 03, 2026 |
 | **[ovn-kubernetes/ovn-kubernetes](https://github.com/ovn-kubernetes/ovn-kubernetes)** | [LoadBalancer/externalIP gateway-bridge flows are dropped for one protocol when a Service exposes the same port number on both TCP and UDP](https://github.com/ovn-kubernetes/ovn-kubernetes/issues/6770) | kind/bug, kind/support | Aug 03, 2026 |
+| **[NVIDIA/cudf](https://github.com/NVIDIA/cudf)** | [\[FEA\] Allow Hybrid Scan PQ reader to prune row groups with length-absent bloom filters](https://github.com/NVIDIA/cudf/issues/23515) | feature request, 0 - Backlog | Aug 03, 2026 |
 
 ---
 *Built with ❤️ for the Cloud Native community.*
